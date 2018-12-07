@@ -32,22 +32,26 @@
                 </div>
             </section>
             <section class="front-page-description clearfix">
-                <div class="front-page-description-image">
-                    <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
+                <div class="animation-element-transformXl">
+                     <div class="front-page-description-image">
+                        <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
+                    </div>                   
                 </div>
-                <div class="front-page-description-content">
+                <div class="front-page-description-content animation-element-transformY">
                     <span class="front-page-description-bg-text">Новий <br>Автограф</span>
-                    <h2>Це – комплекс для життя!</h2>
-                    <p>Це не просто новий житловий комплекс, <strong>це – комплекс для життя.</strong> Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом.</p>
-                    <a href="page-about-complex.php" class="button button-skew button-red front-page-description-content-button">
-                        <span>+  Більше про комплекс</span>
-                    </a>
+                    <h2 class="animation-element-transformY">Це – комплекс для життя!</h2>
+                    <p class="animation-element-transformY">Це не просто новий житловий комплекс, <strong>це – комплекс для життя.</strong> Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом.</p>
+                    <div class="animation-element-transformY">
+                         <a href="page-about-complex.php" class="button button-skew button-red front-page-description-content-button">
+                            <span>+  Більше про комплекс</span>
+                        </a>                       
+                    </div>
                 </div>
             </section>
             <section class="front-page-choose clearfix">
                 <div class="front-page-choose-content-container">
-                    <h2>Квартири на будь-який смак!</h2>
-                    <ul class="front-page-choose-stats-list">
+                    <h2 class="animation-element-transformY">Квартири на будь-який смак!</h2>
+                    <ul class="front-page-choose-stats-list animation-element-transformY">
                         <li>
                             <span>2</span>
                             <span>Секції</span>
@@ -69,8 +73,8 @@
                             <span>введеня в эксплуатацiю</span>
                         </li>
                     </ul>
-                    <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом.</p>
-                    <div class="front-page-choose-content-buttons-container">
+                    <p class="animation-element-transformY">Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом.</p>
+                    <div class="front-page-choose-content-buttons-container animation-element-transformY">
                         <a href="page-floors.php" class="button button-skew button-red">
                             <span>+  Обрати квартиру</span>
                         </a>
@@ -79,51 +83,53 @@
                         </a>
                     </div>
                 </div>
-                <div class="front-page-choose-list-container">
-                    <ul class="front-page-choose-list">
-                        <li>
-                            <a href="page-filter.php">
-                                <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
-                                <span>1 — кiмнатнi</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="page-filter.php">
-                                <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
-                                <span>2 — кiмнатнi</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="page-filter.php">
-                                <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
-                                <span>3 — кiмнатнi</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="page-filter.php">
-                                <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
-                                <span>4+ — кiмнатнi</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="page-filter.php">
-                                <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
-                                <span>2 — рiвневi</span>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="animation-element-transformY">
+                    <div class="front-page-choose-list-container">
+                        <ul class="front-page-choose-list">
+                            <li>
+                                <a href="page-filter.php">
+                                    <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
+                                    <span>1 — кiмнатнi</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="page-filter.php">
+                                    <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
+                                    <span>2 — кiмнатнi</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="page-filter.php">
+                                    <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
+                                    <span>3 — кiмнатнi</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="page-filter.php">
+                                    <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
+                                    <span>4+ — кiмнатнi</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="page-filter.php">
+                                    <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
+                                    <span>2 — рiвневi</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>                    
                 </div>
             </section>
             <section class="front-page-security">
                 <div class="front-page-security-content-container clearfix">
                     <div class="front-page-security-content">
-                        <div class="front-page-security-content-data">
+                        <div class="front-page-security-content-data animation-element-transformY">
                             <h2>Закрита територія та <br>подвір'я без машин</h2>
                             <p>Надійність девелопера - головний орієнтир при покупці квартири. Найкращий доказ нашої репутації - успішно реалізовані проекти.</p>
                             <a href="single-blog.php" class="link link-simple link-red security-link">+  Більше про безпеку</a>
                         </div>
                     </div>
-                    <div class="front-page-security-slider-container">
+                    <div class="front-page-security-slider-container animation-element-transformXr">
                         <div class="front-page-security-slider" id="security_slider">
                             <div class="front-page-security-slider-list-container">
                                 <ul class="front-page-security-slider-list clearfix">
@@ -168,34 +174,38 @@
             </section>
             <section class="front-page-park clearfix">
                 <div class="front-page-park-content">
-                    <h2>Парк та озеро для вiдпочинку</h2>
-                    <p>Це не просто новий житловий комплекс, <strong>це – комплекс для життя</strong>. Життя якісно нового рівня та комфорту</p>
-                    <a href="single-blog.php" class="link link-simple link-red park-link">+  Більше про парк</a>
+                    <h2 class="animation-element-transformY">Парк та озеро для вiдпочинку</h2>
+                    <p class="animation-element-transformY">Це не просто новий житловий комплекс, <strong>це – комплекс для життя</strong>. Життя якісно нового рівня та комфорту</p>
+                    <div class="animation-element-transformY">
+                        <a href="single-blog.php" class="link link-simple link-red park-link">+  Більше про парк</a>
+                    </div>
                 </div>
-                <div class="front-page-park-slider-container">
-                    <div class="front-page-park-slider" id="park_slider">
-                        <div class="front-page-park-slider-list-container">
-                            <ul class="front-page-park-slider-list">
-                                <li>
-                                    <img src="statics/img/front_page/park_slider/1.jpg" alt="Park photo">
-                                </li>
-                                <li>
-                                    <img src="statics/img/front_page/park_slider/1.jpg" alt="Park photo">
-                                </li>
-                                <li>
-                                    <img src="statics/img/front_page/park_slider/1.jpg" alt="Park photo">
-                                </li>
-                                <li>
-                                    <img src="statics/img/front_page/park_slider/1.jpg" alt="Park photo">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="front-page-park-slider-controls">
-                            <div class="front-page-park-slider-control" data-direction="left">
-                                <img src="statics/img/ui/arrow_white_left.svg" alt="Left arrow icon">
+                <div class="animation-element-transformY">
+                    <div class="front-page-park-slider-container">
+                        <div class="front-page-park-slider" id="park_slider">
+                            <div class="front-page-park-slider-list-container">
+                                <ul class="front-page-park-slider-list">
+                                    <li>
+                                        <img src="statics/img/front_page/park_slider/1.jpg" alt="Park photo">
+                                    </li>
+                                    <li>
+                                        <img src="statics/img/front_page/park_slider/1.jpg" alt="Park photo">
+                                    </li>
+                                    <li>
+                                        <img src="statics/img/front_page/park_slider/1.jpg" alt="Park photo">
+                                    </li>
+                                    <li>
+                                        <img src="statics/img/front_page/park_slider/1.jpg" alt="Park photo">
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="front-page-park-slider-control" data-direction="right">
-                                <img src="statics/img/ui/arrow_white_right.svg" alt="Right arrow icon">
+                            <div class="front-page-park-slider-controls">
+                                <div class="front-page-park-slider-control" data-direction="left">
+                                    <img src="statics/img/ui/arrow_white_left.svg" alt="Left arrow icon">
+                                </div>
+                                <div class="front-page-park-slider-control" data-direction="right">
+                                    <img src="statics/img/ui/arrow_white_right.svg" alt="Right arrow icon">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -203,43 +213,47 @@
             </section>
             <section class="front-page-close-needs clearfix">
                 <div class="front-page-close-needs-content">
-                    <h2>Все саме необхiдне поруч</h2>
-                    <p>Це не просто новий житловий комплекс, <br>це – комплекс для життя.  Життя якісно нового <br>рівня та комфорту. Місце, де квартира</p>
-                    <a href="page-about-complex.php#infrastructure" class="link link-simple link-red close-needs-link">+  Дізнатись більше</a>
-                </div>
-                <div class="front-page-close-needs-slider-container">
-                    <div class="front-page-close-needs-slider" id="close_needs_slider">
-                        <div class="front-page-close-needs-slider-list-container">
-                            <ul class="front-page-close-needs-slider-list">
-                                <li>
-                                    <img src="statics/img/front_page/close_needs_slider/1.jpg" alt="Territory photo">
-                                </li>
-                                <li>
-                                    <img src="statics/img/front_page/close_needs_slider/1.jpg" alt="Territory photo">
-                                </li>
-                                <li>
-                                    <img src="statics/img/front_page/close_needs_slider/1.jpg" alt="Territory photo">
-                                </li>
-                                <li>
-                                    <img src="statics/img/front_page/close_needs_slider/1.jpg" alt="Territory photo">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="front-page-close-needs-slider-controls">
-                            <div class="front-page-close-needs-slider-control" data-direction="left">
-                                <img src="statics/img/ui/arrow_white_left.svg" alt="Left arrow icon">
-                            </div>
-                            <div class="front-page-close-needs-slider-control" data-direction="right">
-                                <img src="statics/img/ui/arrow_white_right.svg" alt="Right arrow icon">
-                            </div>
-                        </div>
+                    <h2 class="animation-element-transformY">Все саме необхiдне поруч</h2>
+                    <p class="animation-element-transformY">Це не просто новий житловий комплекс, <br>це – комплекс для життя.  Життя якісно нового <br>рівня та комфорту. Місце, де квартира</p>
+                    <div class="animation-element-transformY">
+                        <a href="page-about-complex.php#infrastructure" class="link link-simple link-red close-needs-link">+  Дізнатись більше</a>
                     </div>
+                </div>
+                <div class="animation-element-transformY">
+                    <div class="front-page-close-needs-slider-container">
+                        <div class="front-page-close-needs-slider" id="close_needs_slider">
+                            <div class="front-page-close-needs-slider-list-container">
+                                <ul class="front-page-close-needs-slider-list">
+                                    <li>
+                                        <img src="statics/img/front_page/close_needs_slider/1.jpg" alt="Territory photo">
+                                    </li>
+                                    <li>
+                                        <img src="statics/img/front_page/close_needs_slider/1.jpg" alt="Territory photo">
+                                    </li>
+                                    <li>
+                                        <img src="statics/img/front_page/close_needs_slider/1.jpg" alt="Territory photo">
+                                    </li>
+                                    <li>
+                                        <img src="statics/img/front_page/close_needs_slider/1.jpg" alt="Territory photo">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="front-page-close-needs-slider-controls">
+                                <div class="front-page-close-needs-slider-control" data-direction="left">
+                                    <img src="statics/img/ui/arrow_white_left.svg" alt="Left arrow icon">
+                                </div>
+                                <div class="front-page-close-needs-slider-control" data-direction="right">
+                                    <img src="statics/img/ui/arrow_white_right.svg" alt="Right arrow icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
                 </div>
             </section>
             <section class="front-page-progress">
                 <div class="front-page-progress-complex-slider" id="progress_slider">
                     <div class="front-page-progress-upper clearfix">
-                        <div class="front-page-progress-article-slider-container-outer">
+                        <div class="front-page-progress-article-slider-container-outer animation-element-transformY">
                             <div class="front-page-progress-article-slider-container">
                                 <ul class="front-page-progress-article-slider-list clearfix">
                                     <li>
@@ -437,9 +451,11 @@
                     <div class="front-page-developer-logo">
                         <img src="statics/img/front_page/dim_logo_medium.svg" alt="DIM logotype">
                     </div>
-                    <h2>DIM - це Довіра</h2>
-                    <p>Надійність девелопера - головний орієнтир при покупці квартири.<br>Найкращий доказ нашої репутації - успішно реалізовані проекти.</p>
-                    <a href="page-about-developer.php" class="link link-simple link-red developer-link">+  Дізнатися більше</a>
+                    <div class="animation-element-transformY">
+                        <h2>DIM - це Довіра</h2>
+                        <p>Надійність девелопера - головний орієнтир при покупці квартири.<br>Найкращий доказ нашої репутації - успішно реалізовані проекти.</p>
+                        <a href="page-about-developer.php" class="link link-simple link-red developer-link">+  Дізнатися більше</a>
+                    </div>
                 </div>
             </section>
             <section class="front-page-news">

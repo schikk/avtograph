@@ -742,6 +742,7 @@ span.del-line::after {
     float: left;
     transform-origin: 100% 100%;
     transform: skewX(19.8deg);
+    will-change: transform;
 }
 
 .front-page-description-image > img {
@@ -4058,4 +4059,28 @@ span.del-line::after {
     background: #FFFFFF;
     border: .01rem solid #E22737;
     color: #E22737;
+}
+/* ANIMATION ELEMENTS */
+.animation-element {
+    transition: transform 1s ease;
+    will-change: transform;
+}
+.animation-element-transformY {
+   transition: transform 1s ease;
+   transform: translateY(1rem);
+}
+.animation-element-transformXl {
+   transition: transform 1s ease;
+   transform: translateX(-100%);    
+}
+.animation-element-transformXr {
+   transition: transform 1s ease;
+   transform: translateX(100%);    
+}
+.animation-element-transformY.in-view {
+   transform: translateY(0); 
+}
+.animation-element-transformXl.in-view,
+.animation-element-transformXr.in-view {
+    transform: translateX(0);
 }
