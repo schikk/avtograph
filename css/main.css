@@ -134,13 +134,22 @@ a.button:hover {
 .button.button-skew {
     transform-origin: 0 0;
     transform: skewX(19deg);
+    will-change: transform;
+    transition: transform .6s;
 }
 
 .button.button-skew > span {
     transform-origin: 0 0;
     transform: skewX(-19deg);
+    will-change: transform;
+    transition: transform .6s, color .3s;
 }
-
+.button.button-skew:not(.button-transparent):hover {
+    transform: skewX(0deg);
+}
+.button.button-skew:not(.button-transparent):hover > span {
+    transform: skewX(0deg);
+} 
 .button-red,
 a.button-red {
     background-color: #E22737;
@@ -154,7 +163,7 @@ a.button-transparent {
 
 .button-transparent:hover,
 a.button-transparent:hover {
-    color: #E22737;
+    color: #12284C;
 }
 
 .button-white,
@@ -178,10 +187,13 @@ a.link {
 }
 
 .link-red,
-.link-red:hover,
-a.link-red,
-a.link-red:hover {
+a.link-red {
     color: #E22737;
+    transition: color .3s;
+}
+.link-red:hover,
+a.link-red:hover {
+    color: #12284C;
 }
 
 
@@ -313,8 +325,12 @@ a.link-red:hover {
     display: block;
     height: auto;
     width: .25rem;
+    will-change: transform;
+    transition: transform .6s;
 }
-
+.header-btns > li:hover > img {
+    transform: rotate(25deg);
+}
 .header-btns > li.camera-btn {
     width: .6rem;
     height: .6rem;
@@ -422,7 +438,14 @@ a.link-red:hover {
     vertical-align: top;
     color: #fff;
 }
-
+.header-menu-left-list > li > a,
+.header-menu-right-list > li > a {
+    transition: transform .3s;
+}
+.header-menu-left-list > li > a:hover,
+.header-menu-right-list > li > a:hover {
+    transform: translateX(.1rem);
+}
 .header-menu-right-list {
     font-weight: 300;
     font-size: .3rem;
@@ -1763,8 +1786,11 @@ span.del-line::after {
     font-size: .2rem;
     line-height: .2rem;
     white-space: pre-wrap;
+    transition: color .3s;
 }
-
+.front-page-news-slider-list > li > a:hover > span.front-page-news-slider-list-item-link-label {
+    color: #E22737;
+}
 .front-page-news-slider-controls {
     width: 100%;
     display: flex;
@@ -1794,13 +1820,6 @@ span.del-line::after {
     height: .15rem;
     width: auto;
 }
-
-
-
-
-
-
-
 
 /* PAGE - ABOUT COMPLEX */
 
@@ -3392,7 +3411,7 @@ span.del-line::after {
 
 .filter-page-container-right-result-outer {
     position: relative;
-    height: calc(100vh - 2rem);
+    /*height: calc(100vh - 2rem);*/
 }
 
 .filter-page-container-right-result-outer::after {
@@ -3438,6 +3457,11 @@ span.del-line::after {
     background-color: #fff;
     box-shadow: 0 .05rem .25rem 0 rgba(40,48,61,0.07);
     margin: 0 0 .4rem 0;
+    transition: transform .6s;
+}
+
+.filter-page-container-right-result-list > li:hover {
+    transform: translateY(-.05rem);
 }
 
 .filter-page-container-right-result-list > li > a {
@@ -3994,6 +4018,10 @@ span.del-line::after {
     background-repeat: no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
+    transition: transform .6s;
+}
+.form-feedback-close-btn:hover {
+    transform: rotate(-90deg);
 }
 .form-feedback-success-container {
     display: none;
