@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="111px" viewBox="0 0 100 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>red_pin_big</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Новости" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="10_Внутри-новости" transform="translate(-380.000000, -4182.000000)" fill="#E22737">
+            <g id="contact" transform="translate(-164.000000, 3814.000000)">
+                <g id="map" transform="translate(0.000000, 83.000000)">
+                    <g id="Pin" transform="translate(544.000000, 285.000000)">
+                        <path d="M98.2843075,62.8120895 L85.3465663,111 L37.0622588,98.0880883 C10.3955721,90.9570364 -5.42962461,63.6017142 1.71569255,36.9882661 C8.8610097,10.374818 36.2710545,-5.41878466 62.9377412,1.71226726 C89.6044279,8.84331919 105.429625,36.1986414 98.2843075,62.8120895 Z" id="red_pin_big"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="41px" viewBox="0 0 21 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Документация" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="07_документация" transform="translate(-60.000000, -452.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="side-abr" transform="translate(20.000000, 20.000000)">
+                <g id="menu_2">
+                    <g id="menu" transform="translate(50.500000, 452.500000) rotate(-90.000000) translate(-50.500000, -452.500000) translate(30.500000, 442.000000)">
+                        <path d="M10,0 L30,0 L30,1 L10,1 L10,0 Z M9.23705556e-14,10 L40,10 L40,11 L9.23705556e-14,11 L9.23705556e-14,10 Z M10,20 L30,20 L30,21 L10,21 L10,20 Z"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

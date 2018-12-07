@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="15px" viewBox="0 0 19 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow_white_right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main_page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v6_home_screen" transform="translate(-771.000000, -5375.000000)" fill="#F6F6F6" fill-rule="nonzero">
+            <g id="Group-16" transform="translate(0.000000, 4830.000000)">
+                <g id="Group-19" transform="translate(670.000000, 522.000000)">
+                    <g id="arrow" transform="translate(80.000000, 0.000000)">
+                        <path d="M32.3652335,23.2255894 C32.0746093,22.9248035 31.5909132,22.9248035 31.2901274,23.2255894 C30.9995032,23.5162135 30.9995032,23.9999097 31.2901274,24.2898564 L36.7415319,29.741261 L21.752642,29.741261 C21.3333032,29.7419384 21,30.0752416 21,30.4945804 C21,30.9139192 21.3333032,31.2580616 21.752642,31.2580616 L36.7415319,31.2580616 L31.2901274,36.6993045 C30.9995032,37.0000903 30.9995032,37.4844639 31.2901274,37.7744106 C31.5909132,38.0751965 32.0752868,38.0751965 32.3652335,37.7744106 L39.1071719,31.0324722 C39.4079577,30.7418481 39.4079577,30.2581519 39.1071719,29.9682052 L32.3652335,23.2255894 Z" id="arrow_white_right"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
