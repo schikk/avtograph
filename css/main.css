@@ -733,6 +733,11 @@ span.del-line::after {
     overflow: hidden;
 }
 
+.front-page-description .animation-element-transformXl {
+    position: relative;
+    z-index: 1;
+}
+
 .front-page-description-image {
     position: relative;
     z-index: 1;
@@ -1682,7 +1687,7 @@ span.del-line::after {
     left: 0;
 }
 
-.front-page-developer-content > h2 {
+.front-page-developer-content h2 {
     width: 100%;
     font-weight: 500;
     font-size: 1.3rem;
@@ -1691,11 +1696,11 @@ span.del-line::after {
     text-align: center;
     margin: 0;
     position: absolute;
-    top: 1.1rem;
+    top:-.3rem;
     left: 0;
 }
 
-.front-page-developer-content > p {
+.front-page-developer-content p {
     position: relative;
     font-weight: 300;
     font-size: .25rem;
@@ -4083,4 +4088,20 @@ span.del-line::after {
 .animation-element-transformXl.in-view,
 .animation-element-transformXr.in-view {
     transform: translateX(0);
+}
+
+
+
+
+
+
+
+/* MOBILE TALES */
+
+.front-page-intro-mobile-link,
+.front-page-description-image-mobile,
+.front-page-choose-content-buttons-container-mobile,
+.mobile-progress-img,
+.mobile-header {
+    display: none;
 }

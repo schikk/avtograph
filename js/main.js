@@ -29,7 +29,7 @@ $(document).ready(function() {
 
         // Create the Google Map using out element and options defined above
         var map = new google.maps.Map(mapElement, mapOptions);
-        var image = "/statics/img/ui/map/red_pin_big.svg";
+        var image = $(window).width() > 767 ? '/statics/img/ui/map/red_pin_big.svg' : '/statics/img/ui/map/red_pin_small.svg';
 
         // Define the Lattitude and Longitude for the map location
         var myLatLng = new google.maps.LatLng(50.468577, 30.612557);

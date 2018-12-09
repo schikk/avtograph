@@ -12,20 +12,10 @@
                         <p>Місце, <br>де обирають <span class="del-line">не квартиру,</span> <br><span class="del-line">а</span> домівку</p>
                     </div>
                     <div class="front-page-intro-animation-block">
-                        <img src="statics/img/front_page/big_A.png" class="next-particle"
-                            data-init-position="left"
-                            data-init-direction="top"
-                            data-fade-position="right"
-                            data-fade-direction="bottom"
-                            data-noise="20"
-                            data-color="#f5f5f5"
-                            data-gravity="0.07"
-                            data-mouse-force="100"
-                            data-particle-gap="7"
-                            data-width="100%"
-                            data-height="100%" >
+                        <img src="statics/img/front_page/big_A.png" id="particles_img" >
                     </div>
                     <p class="front-page-intro-address">Київ, вул. Генерала Жмаченка 26</p>
+                    <a href="page-filter.php" class="front-page-intro-mobile-link">+   Обрати квартиру</a>
                     <div class="vr-btn" role="button">
                         <img src="statics/img/ui/vr.svg" alt="VR icon">
                     </div>
@@ -33,15 +23,18 @@
             </section>
             <section class="front-page-description clearfix">
                 <div class="animation-element-transformXl">
-                     <div class="front-page-description-image">
+                    <div class="front-page-description-image">
                         <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
                     </div>                   
                 </div>
                 <div class="front-page-description-content animation-element-transformY">
                     <span class="front-page-description-bg-text">Новий <br>Автограф</span>
                     <h2 class="animation-element-transformY">Це – комплекс для життя!</h2>
+                    <div class="front-page-description-image-mobile">
+                        <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
+                    </div> 
                     <p class="animation-element-transformY">Це не просто новий житловий комплекс, <strong>це – комплекс для життя.</strong> Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом.</p>
-                    <div class="animation-element-transformY">
+                    <div class="front-page-description-content-button-container animation-element-transformY">
                          <a href="page-about-complex.php" class="button button-skew button-red front-page-description-content-button">
                             <span>+  Більше про комплекс</span>
                         </a>                       
@@ -117,6 +110,14 @@
                                 </a>
                             </li>
                         </ul>
+                        <div class="front-page-choose-content-buttons-container-mobile">
+                            <a href="page-floors.php" class="button button-skew button-red">
+                                <span>+  Обрати квартиру</span>
+                            </a>
+                            <a href="#" class="button button-skew button-transparent cta-modal-btn">
+                                <span>+ Записатись на перегляд</span>
+                            </a>
+                        </div>
                     </div>                    
                 </div>
             </section>
@@ -259,6 +260,9 @@
                                     <li>
                                         <span>23 вересня, 2018</span>
                                         <h3>Завершенний <br>5й поверх</h3>
+                                        <div class="mobile-progress-img">
+                                            <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
+                                        </div>
                                         <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
                                         <a href="page-progress.php" class="button button-skew button-red">
                                             <span>Хочу переконатись</span>
@@ -267,6 +271,9 @@
                                     <li>
                                         <span>23 вересня, 2018</span>
                                         <h3>Завершенний <br>5й поверх</h3>
+                                        <div class="mobile-progress-img">
+                                            <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
+                                        </div>
                                         <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
                                         <a href="page-progress.php" class="button button-skew button-red">
                                             <span>Хочу переконатись</span>
@@ -275,6 +282,9 @@
                                     <li>
                                         <span>23 вересня, 2018</span>
                                         <h3>Завершенний <br>5й поверх</h3>
+                                        <div class="mobile-progress-img">
+                                            <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
+                                        </div>
                                         <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
                                         <a href="page-progress.php" class="button button-skew button-red">
                                             <span>Хочу переконатись</span>
@@ -283,6 +293,9 @@
                                     <li>
                                         <span>23 вересня, 2018</span>
                                         <h3>Завершенний <br>5й поверх</h3>
+                                        <div class="mobile-progress-img">
+                                            <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
+                                        </div>
                                         <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
                                         <a href="page-progress.php" class="button button-skew button-red">
                                             <span>Хочу переконатись</span>
@@ -291,6 +304,9 @@
                                     <li>
                                         <span>23 вересня, 2018</span>
                                         <h3>Завершенний <br>5й поверх</h3>
+                                        <div class="mobile-progress-img">
+                                            <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
+                                        </div>
                                         <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
                                         <a href="page-progress.php" class="button button-skew button-red">
                                             <span>Хочу переконатись</span>
@@ -299,6 +315,9 @@
                                     <li>
                                         <span>23 вересня, 2018</span>
                                         <h3>Завершенний <br>5й поверх</h3>
+                                        <div class="mobile-progress-img">
+                                            <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
+                                        </div>
                                         <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
                                         <a href="page-progress.php" class="button button-skew button-red">
                                             <span>Хочу переконатись</span>
@@ -307,6 +326,9 @@
                                     <li>
                                         <span>23 вересня, 2018</span>
                                         <h3>Завершенний <br>5й поверх</h3>
+                                        <div class="mobile-progress-img">
+                                            <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
+                                        </div>
                                         <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
                                         <a href="page-progress.php" class="button button-skew button-red">
                                             <span>Хочу переконатись</span>
@@ -315,6 +337,9 @@
                                     <li>
                                         <span>23 вересня, 2018</span>
                                         <h3>Завершенний <br>5й поверх</h3>
+                                        <div class="mobile-progress-img">
+                                            <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
+                                        </div>
                                         <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
                                         <a href="page-progress.php" class="button button-skew button-red">
                                             <span>Хочу переконатись</span>
@@ -323,6 +348,9 @@
                                     <li>
                                         <span>23 вересня, 2018</span>
                                         <h3>Завершенний <br>5й поверх</h3>
+                                        <div class="mobile-progress-img">
+                                            <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
+                                        </div>
                                         <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
                                         <a href="page-progress.php" class="button button-skew button-red">
                                             <span>Хочу переконатись</span>
@@ -331,6 +359,9 @@
                                     <li>
                                         <span>23 вересня, 2018</span>
                                         <h3>Завершенний <br>5й поверх</h3>
+                                        <div class="mobile-progress-img">
+                                            <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
+                                        </div>
                                         <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
                                         <a href="page-progress.php" class="button button-skew button-red">
                                             <span>Хочу переконатись</span>
@@ -461,7 +492,7 @@
             <section class="front-page-news">
                 <div class="front-page-news-header">
                     <h2>Нашi новини</h2>
-                    <a href="category-blog.php" class="link link-simple link-red news-link">+  Дізнатися більше</a>
+                    <a href="category-blog.php" class="link link-simple link-red news-link">+  Всi новини</a>
                 </div>
                 <div class="front-page-news-slider" id="news_slider">
                     <ul class="front-page-news-slider-list">

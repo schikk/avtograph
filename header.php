@@ -97,6 +97,17 @@
                 </div>
             </div>
         </div>
+        <div class="mobile-header">
+            <div class="mobile-header-burger-button">
+                <img src="statics/img/ui/menu_horizonta.svg" alt="burger">
+            </div>
+            <a href="index.php" class="mobile-header-logo">
+                <img src="statics/img/main_logo.svg" alt="avtograph logo">
+            </a>
+            <div class="mobile-header-call-button">
+                <img src="statics/img/ui/call_white.svg" alt="phone icon">
+            </div>
+        </div>
         <?php
             if ( strpos( $currentpage, 'page-filter.php' ) != true ) { ?>
                 <ul class="header-btns">
