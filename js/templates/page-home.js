@@ -11,11 +11,11 @@ $(document).ready(function() {
             initDirection: 'top',
             fadePosition: 'right',
             fadeDirection: 'bottom',
-            noise: 20,
-            color: '#f5f5f5',
+            noise: 3,
+            color: '#ffffff',
             gravity: .07,
             mouseForce: 100,
-            particleGap: 7
+            particleGap: 5
         });
     }
 
@@ -177,7 +177,6 @@ $(document).ready(function() {
                     controlWidth = sliderItemDate.outerWidth(),
                     translateX = index*controlWidth - windowWidth/2 + dotControl.outerWidth()/2;
 
-                console.log(index*controlWidth - windowWidth/2 + dotControl.outerWidth()/2);
                 if (translateX > 0) {
                     sliderListDates.css('transform', 'translateX(-'+translateX+'px)');
                 } else {

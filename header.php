@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/rSlider.min.css">
     <link rel="stylesheet" href="css/selectize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/mediaq.css">
+    <link rel="stylesheet" href="css/main.css?ver=1.01">
+    <link rel="stylesheet" href="css/mediaq.css?ver=1.01">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
@@ -106,6 +106,63 @@
             </a>
             <div class="mobile-header-call-button">
                 <img src="statics/img/ui/call_white.svg" alt="phone icon">
+            </div>
+        </div>
+        <div class="mobile-header-menu">
+            <div class="mobile-header-menu-inner">
+                <div class="mobile-header-menu-inner-columns-container">
+                    <div class="mobile-header-menu-inner-column">
+                        <nav>
+                            <ul class="mobile-header-menu-left-list">
+                                <li>
+                                    <a href="page-about-complex.php">О комплексе</a>
+                                </li>
+                                <li>
+                                    <a href="page-floors.php">Планировки</a>
+                                </li>
+                                <li>
+                                    <a href="page-progress.php">Ход строительства</a>
+                                </li>
+                                <li>
+                                    <a href="#" id="gallery-menu-mobile">Галерея</a>
+                                </li>
+                                <li>
+                                    <a href="page-floor-slice.php">Квартиры с ремонтом</a>
+                                </li>
+                                <li>
+                                    <a href="white-box.php">White Box</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="mobile-header-menu-inner-column">
+                        <nav>
+                            <ul class="mobile-header-menu-right-list">
+                                <li>
+                                    <a href="category-blog.php">Новости</a>
+                                </li>
+                                <li>
+                                    <a href="page-about-developer.php">Застройщик</a>
+                                </li>
+                                <li>
+                                    <a href="page-documents.php">Документация</a>
+                                </li>
+                                <li>
+                                    <a href="page-contacts.php">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="mobile-header-menu-inner-bottom-container">
+                    <div class="mobile-header-menu-inner-bottom">
+                        <address>Київ, вул. Генерала Жмаченка 26</address>
+                        <a href="tel:+380445002323">+38 044 500 23 23</a>
+                    </div>
+                    <div class="vr-btn vr-btn-mobile-header-menu" role="button">
+                        <img src="statics/img/ui/vr.svg" alt="VR icon">
+                    </div>
+                </div>
             </div>
         </div>
         <?php

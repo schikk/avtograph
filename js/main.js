@@ -10,6 +10,24 @@ $(document).ready(function() {
         }
     });
 
+    // Mobile menu
+    $('.mobile-header-burger-button').on('click', function() {
+        if ($(this).hasClass('active')) {
+            $('.mobile-header-menu, .mobile-header-burger-button').removeClass('active');
+            $('body').removeClass('overflow-hidden');
+        } else {
+            $('.mobile-header-menu, .mobile-header-burger-button').addClass('active');
+            $('body').addClass('overflow-hidden');
+        }
+    });
+
+    // Mobile header on scroll
+    $(window).on('scroll load', function() {
+        if ($(window).width() < 768) {
+            $(window).scrollTop() > ($(window).outerWidth()/415)*30 ? $('.mobile-header').addClass('scrolled') : $('.mobile-header').removeClass('scrolled');
+        }
+    });
+
     // Footer map
     function initFooterMap(lat, lng) {
         // Basic options for a simple Google Map
@@ -86,6 +104,7 @@ $(document).ready(function() {
 
         function openModal() {
             $('#sidebar_menu_button, .header-menu').removeClass('visible');
+            $('.mobile-header-menu').removeClass('active');
             modal.addClass('visible');
         }
 
@@ -100,7 +119,7 @@ $(document).ready(function() {
             moveTo($(this).index());
         });
 
-        $('#gallery-menu').on('click', function(event) {
+        $('#gallery-menu, #gallery-menu-mobile').on('click', function(event) {
             event.preventDefault();
             openModal();
         });

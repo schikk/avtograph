@@ -104,7 +104,7 @@ $(document).ready(function() {
             sliderItem = sliderList.children('li'),
             sliderItemsCount = sliderItem.length,
             control = slider.find(options.control),
-            gutter = ($(window).outerWidth()/1440)*30;
+            gutter = $(window).width() > 767 ? ($(window).outerWidth()/1440)*30 : ($(window).outerWidth()/415)*20;
 
         function getSlideWidth() {
             return sliderItem.eq(0).outerWidth() + gutter;
@@ -178,7 +178,7 @@ $(document).ready(function() {
         };
         var mapElement = document.getElementById('infrastructure_map');
         var map = new google.maps.Map(mapElement, mapOptions);
-        var mainimage = "/statics/img/ui/map/red_pin_big.svg";
+        var mainimage = $(window).width() > 767 ? '/statics/img/ui/map/red_pin_big.svg' : '/statics/img/ui/map/red_pin_small.svg';
         var mainLatLng = new google.maps.LatLng(50.468577, 30.612557);
         var mapMarker = new google.maps.Marker({
             position: mainLatLng,
@@ -243,4 +243,12 @@ $(document).ready(function() {
         $(this).addClass('active');
         initInfrastructureMap(50.468577, 30.612557, type);
     });
+
+
+
+    // Mobile adaptation
+    if ($(window).width() < 768) {
+        $('.front-page-park-slider-container').insertAfter('.front-page-park-content > h2');
+        $('.front-page-close-needs-slider-container').insertAfter('.front-page-close-needs-content > h2');
+    }
 });

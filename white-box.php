@@ -29,7 +29,7 @@
                             </li>
                         </ul>
                         <div class="article-cta-block">
-                            <a href="#" class="button button-skew button-red">
+                            <a href="page-floors.php" class="button button-skew button-red">
                                 <span>+  Обрати квартиру</span>
                             </a>
                         </div>

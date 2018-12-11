@@ -6,7 +6,7 @@ $(function() {
             sliderItem = sliderList.children('li'),
             sliderItemsCount = sliderItem.length,
             control = slider.find(options.control),
-            gutter = ($(window).outerWidth()/1440)*20;
+            gutter = $(window).width() > 767 ? ($(window).outerWidth()/1440)*20 : ($(window).outerWidth()/415)*20;
 
         function getSlideWidth() {
             return sliderItem.eq(0).outerWidth() + gutter;
