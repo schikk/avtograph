@@ -73,6 +73,7 @@
     <?php include('gallery.php'); ?>
     <!-- SCRIPTS -->
     <script src="js/libs/jquery-3.3.1.min.js"></script>
+    <script src="js/libs/jquery.mobile.custom.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFJl-oqf0NECka4ZBhXlOVfeUnLvAa-Yw"></script>
     <script src="js/main.js?ver=1.01"></script>
     <!-- Specific scripts -->
