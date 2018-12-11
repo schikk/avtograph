@@ -4112,11 +4112,10 @@ span.del-line::after {
     transition: border-color .3s ease, opacity .3s;
 }
 .up-anchor.active {
-    opacity: .7;
+    opacity: 1;
 }
 .up-anchor:hover {
     border-color: #12284C;
-    opacity: 1;
 }
 
 
