@@ -4,7 +4,7 @@
             <div class="filter-page-container">
                 <div class="filter-page-container-flex">
                     <div class="filter-page-container-left">
-                        <h1>Подобрать <br>квартиру</h1>
+                        <h1>Подобрать <br>квартиру<span class="mobile-filter-close-btn" id="mobile-filter-close-btn"></span></h1>
                         <div class="filter-page-container-left-form-container">
                             <div class="filter-page-container-left-form-container-inner">
                                 <form action="#" method="POST">
@@ -180,4 +180,5 @@
             </div>
         </main>
     </div>
+    <a href="#" class="button button-skew button-red mobile-filter-button" id="mobile-filter-button"><span>Фильтр</span></a>
 <?php require('footer.php'); ?>

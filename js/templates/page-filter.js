@@ -1,4 +1,5 @@
 $(function() {
+    // Custom ranges
     var floorRange = new rSlider({
         target: '#slider_floor',
         values: { min: 1, max: 20 },
@@ -41,8 +42,22 @@ $(function() {
     });
 
 
+    // Custom select
     $('#sort_select').selectize({
         create: true,
         sortField: 'text'
+    });
+
+    // Mobile filter
+    $('.mobile-filter-button').on('click', function(event) {
+        event.preventDefault();
+        
+        $('.filter-page-container-left').addClass('active');
+        $('body').addClass('overflow-hidden');
+    });
+
+    $('#mobile-filter-close-btn').on('click', function() {
+        $('.filter-page-container-left').removeClass('active');
+        $('body').removeClass('overflow-hidden');
     });
 });

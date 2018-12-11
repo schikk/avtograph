@@ -120,6 +120,7 @@
                                 </div>
                             </div>
                         </form>
+                        <span class="mobile-floors-close-btn" id="mobile-floors-close-btn"></span>
                     </div>
                     <div class="floor-slice-page-right">
                         <div class="floor-slice-page-right-pane">
@@ -147,4 +148,5 @@
             </div>
         </main>
     </div>
+    <a href="#" class="button button-skew button-red mobile-floor-button" id="mobile-floor-button"><span>Фильтр</span></a>
 <?php require('footer.php'); ?>

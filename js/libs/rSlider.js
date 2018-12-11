@@ -189,7 +189,7 @@
 
 	RS.prototype.move = function (e) {
 		if (this.activePointer && !this.conf.disabled) {
-			var coordX = e.type === 'touchmove' ? e.touches[0].clientX : e.pageX,
+			var coordX = e.type === 'touchmove' ? window.innerWidth < 768 ? e.touches[0].clientX - window.innerWidth : e.touches[0].clientX : e.pageX,
 				index = coordX - this.sliderLeft - (this.pointerWidth / 2);
 
 			index = Math.round(index / this.step);

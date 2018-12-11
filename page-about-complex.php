@@ -10,9 +10,11 @@
                     <div class="front-page-intro-content-block">
                         <h1>Мiсце, де обирають не <br>квартиру, а домiвку</h1>
                         <p>Життя якісно нового рівня та комфорту. <br>Місце, де квартира перевтілюється <br>в рідну домівку/ стає домом…</p>
-                        <a href="#" class="button button-skew button-red about-complex-page-intro-button cta-modal-btn">
-                            <span>+  Організувати перегляд</span>
-                        </a>
+                        <div class="text-mobile-center">
+                            <a href="#" class="button button-skew button-red about-complex-page-intro-button cta-modal-btn">
+                                <span>+  Організувати перегляд</span>
+                            </a>
+                        </div>
                     </div>
                     <p class="front-page-intro-address">Київ, вул. Генерала Жмаченка 26</p>
                 </div>
@@ -24,6 +26,9 @@
                 <div class="front-page-description-content">
                     <span class="front-page-description-bg-text">Новий <br>Автограф</span>
                     <h2>О комплексе</h2>
+                    <div class="front-page-description-image-mobile">
+                        <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
+                    </div> 
                     <p>Це не просто новий житловий комплекс, <strong>це – комплекс для життя</strong>. Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом. Надійність девелопера - головний орієнтир при покупці квартири. Найкращий доказ нашої репутації - успішно реалізовані проекти.</p>
                 </div>
             </section>
