@@ -80,33 +80,33 @@
     <?php
         if ( $currentpage == '/' || $currentpage == '/projects/avtograf.front/' || strpos( $currentpage, 'index.php' ) == true ) { ?>
             <script src="js/libs/nextparticle.min.js"></script>
-            <script src="js/templates/page-home.js?ver=1.01"></script>
+            <script src="js/templates/page-home.js?ver=1.02"></script>
         <?php }
         if ( strpos( $currentpage, 'page-about-complex.php' ) == true ) { ?>
-            <script src="js/templates/page-about-complex.js?ver=1.01"></script>
+            <script src="js/templates/page-about-complex.js?ver=1.02"></script>
         <?php }
         if ( strpos( $currentpage, 'page-about-developer.php' ) == true ) { ?>
-            <script src="js/templates/page-about-developer.js?ver=1.01"></script>
+            <script src="js/templates/page-about-developer.js?ver=1.02"></script>
         <?php }
         if ( strpos( $currentpage, 'page-contacts.php' ) == true ) { ?>
-            <script src="js/templates/page-contacts.js?ver=1.01"></script>
+            <script src="js/templates/page-contacts.js?ver=1.02"></script>
         <?php }
         if ( strpos( $currentpage, 'page-progress.php' ) == true ) { ?>
-            <script src="js/templates/page-progress.js?ver=1.01"></script>
+            <script src="js/templates/page-progress.js?ver=1.02"></script>
         <?php }
         if ( strpos( $currentpage, 'single-blog.php' ) == true || strpos( $currentpage, 'white-box.php' ) == true ) { ?>
-            <script src="js/templates/single-blog.js?ver=1.01"></script>
+            <script src="js/templates/single-blog.js?ver=1.02"></script>
         <?php }
         if ( strpos( $currentpage, 'page-filter.php' ) == true ) { ?>
-            <script src="js/libs/rSlider.js?ver=1.01"></script>
+            <script src="js/libs/rSlider.js?ver=1.02"></script>
             <script src="js/libs/selectize.js"></script>
-            <script src="js/templates/page-filter.js?ver=1.01"></script>
+            <script src="js/templates/page-filter.js?ver=1.02"></script>
         <?php }
         if ( strpos( $currentpage, 'single-app.php' ) == true ) { ?>
-            <script src="js/templates/single-app.js?ver=1.01"></script>
+            <script src="js/templates/single-app.js?ver=1.02"></script>
         <?php }
         if ( strpos( $currentpage, 'page-floor-slice.php' ) == true ) { ?>
-            <script src="js/templates/page-floor-slice.js?ver=1.01"></script>
+            <script src="js/templates/page-floor-slice.js?ver=1.02"></script>
         <?php }
     ?>
 </body>
