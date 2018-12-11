@@ -25,13 +25,13 @@
             <div class="sidebar-footer">
                 <ul class="sidebar-footer-socials-list">
                     <li>
-                        <a href="#" target="_blank">
+                        <a href="https://www.facebook.com/novyi.avtograf/" target="_blank">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" target="_blank">
-                            <i class="fab fa-youtube"></i>
+                        <a href="https://www.instagram.com/novyi.avtograf/" target="_blank">
+                            <i class="fab fa-instagram"></i>
                         </a>
                     </li>
                 </ul>

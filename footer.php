@@ -20,7 +20,7 @@
                         </li>
                         <li>
                             <span>Телефон</span>
-                            <a href="tel:+380445002323">(044) 500 23 23</a>
+                            <a href="tel:+380444902626">(044) 490 26 26</a>
                         </li>
                         <li>
                             <span>E-Mail</span>
@@ -35,6 +35,10 @@
         </footer>
     <?php }
 ?>
+    <!-- GO UP ANCHOR -->
+    <a href="#" class="up-anchor">
+        <img src="statics/img/ui/arrow_right_blue.svg" alt="Right arrow icon">
+    </a>
     <!-- POP-UP FORM FEEDBACK -->
     <div class="form-feedback-container">
         <span class="form-feedback-close-btn"></span>
@@ -73,6 +77,7 @@
     <?php include('gallery.php'); ?>
     <!-- SCRIPTS -->
     <script src="js/libs/jquery-3.3.1.min.js"></script>
+    <script src="js/libs/jquery-migrate-3.0.0.min.js"></script>
     <script src="js/libs/jquery.mobile.custom.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFJl-oqf0NECka4ZBhXlOVfeUnLvAa-Yw"></script>
     <script src="js/main.js?ver=1.01"></script>

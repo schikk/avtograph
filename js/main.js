@@ -258,6 +258,21 @@ $(document).ready(function() {
         $window.on('scroll resize', check_if_in_view);
         $window.trigger('scroll');
 
-    }      
+    } 
+
+    // GO UP ANCHOR
+    $(window).on('scroll', function() {
+      if ( $(window).scrollTop() > 800 ){
+        $('.up-anchor').addClass('active');
+      } else {
+        $('.up-anchor').removeClass('active');
+      }
+    });
+    $(".up-anchor").on("click", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 800);
+    });
 
 });
