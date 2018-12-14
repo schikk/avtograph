@@ -1,5 +1,17 @@
 $(document).ready(function() {
+    var preloaderDelay = getCookie('preloaderShown') === 'true' ? 0 : 7000;
 
+    function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    
     // Universal slider
     function slider(options) {
         var slider = $(options.id),
@@ -76,26 +88,30 @@ $(document).ready(function() {
 
 
     // Init park slider
-    slider({
-        id: '#park_slider',
-        sliderContainer: '.front-page-park-slider-list-container',
-        sliderList: '.front-page-park-slider-list',
-        control: '.front-page-park-slider-control',
-        hasCounter: false,
-        autoplay: true,
-        differentSlidesHeight: false
-    });
+    setTimeout(function(){
+        slider({
+            id: '#park_slider',
+            sliderContainer: '.front-page-park-slider-list-container',
+            sliderList: '.front-page-park-slider-list',
+            control: '.front-page-park-slider-control',
+            hasCounter: false,
+            autoplay: true,
+            differentSlidesHeight: false
+        });
+    }, preloaderDelay);
 
     // Init close needs slider
-    slider({
-        id: '#close_needs_slider',
-        sliderContainer: '.front-page-close-needs-slider-list-container',
-        sliderList: '.front-page-close-needs-slider-list',
-        control: '.front-page-close-needs-slider-control',
-        hasCounter: false,
-        autoplay: true,
-        differentSlidesHeight: false
-    });
+    setTimeout(function(){
+        slider({
+            id: '#close_needs_slider',
+            sliderContainer: '.front-page-close-needs-slider-list-container',
+            sliderList: '.front-page-close-needs-slider-list',
+            control: '.front-page-close-needs-slider-control',
+            hasCounter: false,
+            autoplay: true,
+            differentSlidesHeight: false
+        });
+    }, preloaderDelay);
 
     // Docs slider
     function docsSlider(options) {
@@ -155,12 +171,14 @@ $(document).ready(function() {
     }
 
     // Init docs slider
-    docsSlider({
-        id: '#docs_slider',
-        sliderList: '.about-complex-page-docs-slider-list',
-        control: '.about-complex-page-docs-slider-control',
-        autoplay: true
-    });
+    setTimeout(function(){
+        docsSlider({
+            id: '#docs_slider',
+            sliderList: '.about-complex-page-docs-slider-list',
+            control: '.about-complex-page-docs-slider-control',
+            autoplay: false
+        });
+    }, preloaderDelay);
 
 
     // Infrastructure map
@@ -168,7 +186,7 @@ $(document).ready(function() {
         var mapOptions = {
             // How zoomed in you want the map to start at (always required)
             zoom: 15,
-            scrollwheel: true,
+            scrollwheel: false,
             // The latitude and longitude to center the map (always required)
             center: new google.maps.LatLng(50.468577, 30.612557),
             disableDefaultUI: true,

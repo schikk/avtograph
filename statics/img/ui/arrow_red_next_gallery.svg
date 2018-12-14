@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="15px" viewBox="0 0 22 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow_red_next_gallery</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Галлерея" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-903.000000, -447.000000)" fill="#E22737" fill-rule="nonzero" id="Group-2">
+            <g transform="translate(884.000000, 424.000000)">
+                <path d="M33.3652335,23.2255894 C33.0746093,22.9248035 32.5909132,22.9248035 32.2901274,23.2255894 C31.9995032,23.5162135 31.9995032,23.9999097 32.2901274,24.2898564 L37.7415319,29.741261 L19.752642,29.741261 C19.3333032,29.7419384 19,30.0752416 19,30.4945804 C19,30.9139192 19.3333032,31.2580616 19.752642,31.2580616 L37.7415319,31.2580616 L32.2901274,36.6993045 C31.9995032,37.0000903 31.9995032,37.4844639 32.2901274,37.7744106 C32.5909132,38.0751965 33.0752868,38.0751965 33.3652335,37.7744106 L40.1071719,31.0324722 C40.4079577,30.7418481 40.4079577,30.2581519 40.1071719,29.9682052 L33.3652335,23.2255894 Z" id="arrow_red_next_gallery"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -13,14 +13,18 @@
     <link rel="stylesheet" href="css/mediaq.css?ver=1.02">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
-<body>
+<body class="<?php if ( is_null($_COOKIE['preloaderShown']) ) { echo 'has-preloader'; } ?>">
     <header class="main-header">
         <div class="sidebar">
             <a href="index.php" class="header-logo">
                 <img src="statics/img/main_logo.svg" alt="Avtograf">
             </a>
             <div class="header-menu-btn" role="button" id="sidebar_menu_button">
-                <img src="statics/img/ui/menu.svg" alt="Menu icon">
+                <div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
             <div class="sidebar-footer">
                 <ul class="sidebar-footer-socials-list">
@@ -62,7 +66,7 @@
                                     <a href="page-progress.php">Ход строительства</a>
                                 </li>
                                 <li>
-                                    <a href="#" id="gallery-menu">Галерея</a>
+                                    <a href="#" id="gallery-menu" data-images="defaultImages" class="gallery-button">Галерея</a>
                                 </li>
                                 <li>
                                     <a href="page-floor-slice.php">Квартиры с ремонтом</a>
@@ -124,7 +128,7 @@
                                     <a href="page-progress.php">Ход строительства</a>
                                 </li>
                                 <li>
-                                    <a href="#" id="gallery-menu-mobile">Галерея</a>
+                                    <a href="#" id="gallery-menu-mobile" data-images="defaultImages" class="gallery-button">Галерея</a>
                                 </li>
                                 <li>
                                     <a href="page-floor-slice.php">Квартиры с ремонтом</a>

@@ -1,24 +1,34 @@
 $(document).ready(function() {
+    var preloaderDelay = getCookie('preloaderShown') === 'true' ? 0 : 7000;
+    console.log(preloaderDelay);
 
-    // Intro particles
-    if ($(window).width() > 767) {
-        nextParticle = new NextParticle({
-            image: document.all.particles_img,
-            addTimestamp: true,
-            width: window.innerWidth,
-            height: window.innerHeight,
-            initPosition: 'left',
-            initDirection: 'top',
-            fadePosition: 'right',
-            fadeDirection: 'bottom',
-            noise: 3,
-            color: '#ffffff',
-            gravity: .07,
-            mouseForce: 100,
-            particleGap: 5
-        });
+    // Cookies functions
+    function setCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+    }
+    function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
     }
 
+    // Hide intro canvas on scroll
+    $(window).on('scroll', function() {
+        if ($(window).width() > 767) {
+            $(window).scrollTop() > ($(window).outerHeight()) ? $('.front-page-intro-animation-block').hide() : $('.front-page-intro-animation-block').show();
+        }
+    });
 
     // Universal slider
     function slider(options) {
@@ -95,39 +105,45 @@ $(document).ready(function() {
     }
 
     // Init security slider
-    slider({
-        id: '#security_slider',
-        sliderContainer: '.front-page-security-slider-list-container',
-        sliderList: '.front-page-security-slider-list',
-        control: '.front-page-security-slider-control',
-        currentCounter: '.current-slide',
-        totalCounter: '.total-slides',
-        hasCounter: true,
-        autoplay: true,
-        differentSlidesHeight: true
-    });
+    setTimeout(function(){
+        slider({
+            id: '#security_slider',
+            sliderContainer: '.front-page-security-slider-list-container',
+            sliderList: '.front-page-security-slider-list',
+            control: '.front-page-security-slider-control',
+            currentCounter: '.current-slide',
+            totalCounter: '.total-slides',
+            hasCounter: true,
+            autoplay: true,
+            differentSlidesHeight: true
+        });
+    }, preloaderDelay);
 
     // Init park slider
-    slider({
-        id: '#park_slider',
-        sliderContainer: '.front-page-park-slider-list-container',
-        sliderList: '.front-page-park-slider-list',
-        control: '.front-page-park-slider-control',
-        hasCounter: false,
-        autoplay: true,
-        differentSlidesHeight: false
-    });
+    setTimeout(function(){
+        slider({
+            id: '#park_slider',
+            sliderContainer: '.front-page-park-slider-list-container',
+            sliderList: '.front-page-park-slider-list',
+            control: '.front-page-park-slider-control',
+            hasCounter: false,
+            autoplay: true,
+            differentSlidesHeight: false
+        });
+    }, preloaderDelay);
 
     // Init close needs slider
-    slider({
-        id: '#close_needs_slider',
-        sliderContainer: '.front-page-close-needs-slider-list-container',
-        sliderList: '.front-page-close-needs-slider-list',
-        control: '.front-page-close-needs-slider-control',
-        hasCounter: false,
-        autoplay: true,
-        differentSlidesHeight: false
-    });
+    setTimeout(function(){
+        slider({
+            id: '#close_needs_slider',
+            sliderContainer: '.front-page-close-needs-slider-list-container',
+            sliderList: '.front-page-close-needs-slider-list',
+            control: '.front-page-close-needs-slider-control',
+            hasCounter: false,
+            autoplay: true,
+            differentSlidesHeight: false
+        });
+    }, preloaderDelay);
 
 
 
@@ -242,18 +258,20 @@ $(document).ready(function() {
     }
 
     // Init progress slider
-    progressSlider({
-        id: '#progress_slider',
-        sliderContainerPreviews: '.front-page-progress-slider-container',
-        sliderContainerArticles: '.front-page-progress-article-slider-container',
-        sliderContainerDates: '.front-page-progress-line-container-inner',
-        sliderListPreviews: '.front-page-progress-slider-list',
-        sliderListArticles: '.front-page-progress-article-slider-list',
-        sliderListDates: '.front-page-progress-line-slider-list',
-        arrowControl: '.front-page-progress-slider-control',
-        dotControl: '.front-page-progress-line-slider-list-item-dot',
-        autoplay: true
-    });
+    setTimeout(function(){
+        progressSlider({
+            id: '#progress_slider',
+            sliderContainerPreviews: '.front-page-progress-slider-container',
+            sliderContainerArticles: '.front-page-progress-article-slider-container',
+            sliderContainerDates: '.front-page-progress-line-container-inner',
+            sliderListPreviews: '.front-page-progress-slider-list',
+            sliderListArticles: '.front-page-progress-article-slider-list',
+            sliderListDates: '.front-page-progress-line-slider-list',
+            arrowControl: '.front-page-progress-slider-control',
+            dotControl: '.front-page-progress-line-slider-list-item-dot',
+            autoplay: true
+        });
+    }, preloaderDelay);
 
 
 
@@ -315,12 +333,14 @@ $(document).ready(function() {
     }
 
     // Init security slider
-    newsSlider({
-        id: '#news_slider',
-        sliderList: '.front-page-news-slider-list',
-        control: '.front-page-news-slider-control',
-        autoplay: true
-    });
+    setTimeout(function(){
+        newsSlider({
+            id: '#news_slider',
+            sliderList: '.front-page-news-slider-list',
+            control: '.front-page-news-slider-control',
+            autoplay: false
+        });
+    }, preloaderDelay);
 
     // Mobile adaptation
     if ($(window).width() < 768) {

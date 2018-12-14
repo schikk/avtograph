@@ -75,6 +75,8 @@
         </div>
     </div>
     <?php include('gallery.php'); ?>
+    <?php if (is_null($_COOKIE['preloaderShown'])) { include('preloader.php'); } ?>
+    <div class="cursor-follower" id="cursor-follower"></div>
     <!-- SCRIPTS -->
     <script src="js/libs/jquery-3.3.1.min.js"></script>
     <script src="js/libs/jquery-migrate-3.0.0.min.js"></script>

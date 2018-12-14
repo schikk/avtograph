@@ -37,7 +37,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="progress-page-intro-content-right">
+                    <div class="progress-page-intro-content-right gallery-button custom-cursor-block" data-images="defaultImages">
                         <img src="statics/img/front_page/description.jpg" alt="alt">
                     </div>
                 </div>
@@ -47,7 +47,9 @@
                 <ul class="progress-news-list">
                     <li>
                         <div class="progress-news-list-item-img">
-                            <img src="statics/img/front_page/description.jpg" alt="">
+                            <a href="single-blog.php">
+                                <img src="statics/img/front_page/description.jpg" alt="">
+                            </a>
                         </div>
                         <div class="progress-news-list-item-content">
                             <h3>Октябрь, 2018</h3>
@@ -58,7 +60,9 @@
                     </li>
                     <li>
                         <div class="progress-news-list-item-img">
-                            <img src="statics/img/front_page/description.jpg" alt="">
+                            <a href="single-blog.php">
+                                <img src="statics/img/front_page/description.jpg" alt="">
+                            </a>
                         </div>
                         <div class="progress-news-list-item-content">
                             <h3>Октябрь, 2018</h3>
@@ -69,7 +73,9 @@
                     </li>
                     <li>
                         <div class="progress-news-list-item-img">
-                            <img src="statics/img/front_page/description.jpg" alt="">
+                            <a href="single-blog.php">
+                                <img src="statics/img/front_page/description.jpg" alt="">
+                            </a>
                         </div>
                         <div class="progress-news-list-item-content">
                             <h3>Октябрь, 2018</h3>
@@ -80,7 +86,9 @@
                     </li>
                     <li>
                         <div class="progress-news-list-item-img">
-                            <img src="statics/img/front_page/description.jpg" alt="">
+                            <a href="single-blog.php">
+                                <img src="statics/img/front_page/description.jpg" alt="">
+                            </a>
                         </div>
                         <div class="progress-news-list-item-content">
                             <h3>Октябрь, 2018</h3>

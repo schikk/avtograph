@@ -5,7 +5,7 @@ $(document).ready(function() {
         var mapOptions = {
             // How zoomed in you want the map to start at (always required)
             zoom: 15,
-            scrollwheel: true,
+            scrollwheel: false,
             // The latitude and longitude to center the map (always required)
             center: new google.maps.LatLng(50.468577, 30.612557),
             disableDefaultUI: true,

@@ -46,7 +46,7 @@
                                 <a href="#">План квартиры</a>
                             </li>
                             <li>
-                                <a href="#">Вид из окна</a>
+                                <a href="#" class="gallery-button" data-images="defaultImages">Вид из окна</a>
                             </li>
                         </ul>
                         <div class="single-app-article-flex-right-visuals">
