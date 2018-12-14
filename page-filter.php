@@ -10,12 +10,25 @@
                                 <form action="#" method="POST">
                                     <div class="filter-section-ranges">
                                         <div class="filter-section-range-block">
+                                            <span>Секция</span>
+                                            <div class="floor-slice-page-form-section-radios-container" id="select_section">
+                                                <div class="floor-slice-page-form-section-radio">
+                                                    <input type="radio" name="order" value="1" checked="true">
+                                                    <span>1</span>
+                                                </div>
+                                                <div class="floor-slice-page-form-section-radio">
+                                                    <input type="radio" name="order" value="2">
+                                                    <span>2</span>
+                                                </div>
+                                                <div class="floor-slice-page-form-section-radio">
+                                                    <input type="radio" name="order" value="3">
+                                                    <span>3</span>
+                                                </div>                                                
+                                            </div>
+                                        </div>                                        
+                                        <div class="filter-section-range-block">
                                             <span>Этаж</span>
                                             <input type="text" id="slider_floor" class="slider" name="floor">
-                                        </div>
-                                        <div class="filter-section-range-block">
-                                            <span>Секция</span>
-                                            <input type="text" id="slider_section" class="slider" name="section">
                                         </div>
                                         <div class="filter-section-range-block">
                                             <span>Площадь м²</span>
