@@ -11,13 +11,6 @@
         display: none;
     }
 
-    .animation-element,
-    .animation-element-transformY,
-    .animation-element-transformXl,
-    .animation-element-transformXr {
-        transform: none !important;
-    }
-
     .page-wrapper {
         padding: 1rem 0 0 0;
     }

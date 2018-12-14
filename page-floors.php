@@ -1,7 +1,7 @@
 <?php require('header.php'); ?>
     <div class="page-wrapper">
         <main class="overflow-hidden">
-            <section class="front-page-intro floors-page-intro">
+            <section class="front-page-intro floors-page-intro animation-element">
                 <div class="front-page-intro-background">
                     <img src="statics/img/choose_floor_page/gallery_bigimage_back.jpg" alt="Avtograf building image">
                     <div class="front-page-intro-background-gradient"></div>

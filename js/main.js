@@ -260,6 +260,7 @@ $(document).ready(function() {
 
         function closeModal() {
             modal.removeClass('visible');
+            $('body').removeClass('overflow-hidden');
         }
 
 
@@ -267,6 +268,14 @@ $(document).ready(function() {
         // Events
         $('body').on('click', '.gallery-modal-slider-controls > ul > li', function() {
             moveTo($(this).index());
+        });
+
+        galleryList.on('swipeleft', function(event) {
+            moveNext();
+        });
+
+        galleryList.on('swiperight', function(event) {
+            movePrev();
         });
 
         $('.gallery-button').on('click', function(event) {
@@ -410,7 +419,7 @@ $(document).ready(function() {
 
     // Animations on scroll
 
-    var $animation_elements = $('.animation-element-transformY, .animation-element-transformXl, .animation-element-transformXr');
+    var $animation_elements = $('.animation-element, .animation-element-default');
     var $window = $(window);
 
     function check_if_in_view() {
@@ -438,11 +447,12 @@ $(document).ready(function() {
     }
 
     if ( $(window).width() > 767 ){
+        setTimeout(function(){
+            check_if_in_view();
 
-        check_if_in_view();
-
-        $window.on('scroll resize', check_if_in_view);
-        $window.trigger('scroll');
+            $window.on('scroll resize', check_if_in_view);
+            $window.trigger('scroll');
+        }, preloaderDelay);
 
     } 
 

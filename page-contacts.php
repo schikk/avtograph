@@ -2,11 +2,11 @@
     <div class="page-wrapper">
         <main class="overflow-hidden">
             <div class="contacts-page-content">
-                <h1>Контакты</h1>
+                <h1 class="animation-element-default">Контакты</h1>
                 <div class="contacts-page-columns-container">
                     <div class="contacts-page-column">
-                        <h2>Офис продаж</h2>
-                        <ul class="contacts-page-column-list">
+                        <h2 class="animation-element-default">Офис продаж</h2>
+                        <ul class="contacts-page-column-list animation-element-default">
                             <li>
                                 <address>г. Киев, ул. Сечевых Стрельцов, 41</address>
                                 <ul>
@@ -24,8 +24,8 @@
                         </ul>
                     </div>
                     <div class="contacts-page-column">
-                        <h2>Отдел по работе с риелторами</h2>
-                        <ul class="contacts-page-column-list">
+                        <h2 class="animation-element-default">Отдел по работе с риелторами</h2>
+                        <ul class="contacts-page-column-list animation-element-default">
                             <li>
                                 <address>г. Киев, ул. Сечевых Стрельцов, 41</address>
                                 <ul>
@@ -43,13 +43,13 @@
                         </ul>
                     </div>
                 </div>
-                <div class="contacts-page-cta">
+                <div class="contacts-page-cta animation-element-default">
                     <a href="#" class="button button-skew button-red cta-modal-btn">
                         <span>Записаться на просмотр</span>
                     </a>
                 </div>
             </div>
-            <div class="contacts-map" id="contacts_map">
+            <div class="contacts-map animation-element-default" id="contacts_map">
                 
             </div>
         </main>

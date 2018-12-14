@@ -2,33 +2,33 @@
     <div class="page-wrapper">
         <main class="overflow-hidden">
             <section class="progress-page-intro">
-                <h1>Ход строительства</h1>
+                <h1 class="animation-element-default">Ход строительства</h1>
                 <div class="progress-page-intro-content">
                     <div class="progress-page-intro-content-left">
-                        <p>Це не просто новий житловий комплекс, це – комплекс для життя. Життя якісно нового рівня та комфорту</p>
+                        <p class="animation-element-default">Це не просто новий житловий комплекс, це – комплекс для життя. Життя якісно нового рівня та комфорту</p>
                         <ul class="total-progress-list">
-                            <li>
+                            <li class="animation-element-default">
                                 <div class="progress-stat">
                                     <span>75%</span>
                                     <span>Фасад</span>
                                 </div>
                                 <div class="progress-line" data-percent="75"><div></div></div>
                             </li>
-                            <li>
+                            <li class="animation-element-default">
                                 <div class="progress-stat">
                                     <span>5%</span>
                                     <span>Коммуникации</span>
                                 </div>
                                 <div class="progress-line" data-percent="5"><div></div></div>
                             </li>
-                            <li>
+                            <li class="animation-element-default">
                                 <div class="progress-stat">
                                     <span>0%</span>
                                     <span>Благоустройство</span>
                                 </div>
                                 <div class="progress-line" data-percent="0"><div></div></div>
                             </li>
-                            <li>
+                            <li class="animation-element-default">
                                 <div class="progress-stat">
                                     <span>50%</span>
                                     <span>Общие строительные работы</span>
@@ -43,57 +43,65 @@
                 </div>
             </section>
             <section class="progress-page-news">
-                <h2>Новости строительства</h2>
+                <h2 class="animation-element-default">Новости строительства</h2>
                 <ul class="progress-news-list">
                     <li>
-                        <div class="progress-news-list-item-img">
+                        <div class="progress-news-list-item-img animation-element-default">
                             <a href="single-blog.php">
                                 <img src="statics/img/front_page/description.jpg" alt="">
                             </a>
                         </div>
                         <div class="progress-news-list-item-content">
-                            <h3>Октябрь, 2018</h3>
-                            <p>Це не просто новий житловий комплекс, це – комплекс для життя. Життя якісно нового рівня та комфорту</p>
-                            <a href="single-blog.php" class="link link-red">+  Читати повнiстью</a>
+                            <h3 class="animation-element-default">Октябрь, 2018</h3>
+                            <p class="animation-element-default">Це не просто новий житловий комплекс, це – комплекс для життя. Життя якісно нового рівня та комфорту</p>
+                            <div class="link-container animation-element-default">
+                                <a href="single-blog.php" class="link link-red">+  Читати повнiстью</a>
+                            </div>
                         </div>
                         <div class="progress-dot"></div>
                     </li>
                     <li>
-                        <div class="progress-news-list-item-img">
+                        <div class="progress-news-list-item-img animation-element-default">
                             <a href="single-blog.php">
                                 <img src="statics/img/front_page/description.jpg" alt="">
                             </a>
                         </div>
                         <div class="progress-news-list-item-content">
-                            <h3>Октябрь, 2018</h3>
-                            <p>Це не просто новий житловий комплекс, це – комплекс для життя. Життя якісно нового рівня та комфорту</p>
-                            <a href="single-blog.php" class="link link-red">+  Читати повнiстью</a>
+                            <h3 class="animation-element-default">Октябрь, 2018</h3>
+                            <p class="animation-element-default">Це не просто новий житловий комплекс, це – комплекс для життя. Життя якісно нового рівня та комфорту</p>
+                            <div class="link-container animation-element-default">
+                                <a href="single-blog.php" class="link link-red">+  Читати повнiстью</a>
+                            </div>
                         </div>
                         <div class="progress-dot"></div>
                     </li>
                     <li>
-                        <div class="progress-news-list-item-img">
+                        <div class="progress-news-list-item-img animation-element-default">
                             <a href="single-blog.php">
                                 <img src="statics/img/front_page/description.jpg" alt="">
                             </a>
                         </div>
                         <div class="progress-news-list-item-content">
-                            <h3>Октябрь, 2018</h3>
-                            <p>Це не просто новий житловий комплекс, це – комплекс для життя. Життя якісно нового рівня та комфорту</p>
-                            <a href="single-blog.php" class="link link-red">+  Читати повнiстью</a>
+                            <h3 class="animation-element-default">Октябрь, 2018</h3>
+                            <p class="animation-element-default">Це не просто новий житловий комплекс, це – комплекс для життя. Життя якісно нового рівня та комфорту</p>
+                            <div class="link-container animation-element-default">
+                                <a href="single-blog.php" class="link link-red">+  Читати повнiстью</a>
+                            </div>
                         </div>
                         <div class="progress-dot"></div>
                     </li>
                     <li>
-                        <div class="progress-news-list-item-img">
+                        <div class="progress-news-list-item-img animation-element-default">
                             <a href="single-blog.php">
                                 <img src="statics/img/front_page/description.jpg" alt="">
                             </a>
                         </div>
                         <div class="progress-news-list-item-content">
-                            <h3>Октябрь, 2018</h3>
-                            <p>Це не просто новий житловий комплекс, це – комплекс для життя. Життя якісно нового рівня та комфорту</p>
-                            <a href="single-blog.php" class="link link-red">+  Читати повнiстью</a>
+                            <h3 class="animation-element-default">Октябрь, 2018</h3>
+                            <p class="animation-element-default">Це не просто новий житловий комплекс, це – комплекс для життя. Життя якісно нового рівня та комфорту</p>
+                            <div class="link-container animation-element-default">
+                                <a href="single-blog.php" class="link link-red">+  Читати повнiстью</a>
+                            </div>
                         </div>
                         <div class="progress-dot"></div>
                     </li>

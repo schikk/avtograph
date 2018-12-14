@@ -4,12 +4,12 @@
             <article class="single-app-article">
                 <div class="single-app-article-flex">
                     <div class="single-app-article-flex-left">
-                        <div class="floor-slice-page-container-top single-app-page-container-top">
+                        <div class="floor-slice-page-container-top single-app-page-container-top animation-element-default">
                             <a href="page-filter.php">вернуться к выбору квартир</a>
                         </div>
                         <div class="single-app-description">
-                            <h2>Технические характеристики</h2>
-                            <ul class="single-app-main-specs-list">
+                            <h2 class="animation-element-default">Технические характеристики</h2>
+                            <ul class="single-app-main-specs-list animation-element-default">
                                 <li>
                                     <span>2</span>
                                     <p>Комнаты</p>
@@ -23,13 +23,13 @@
                                     <p>m² общей площади</p>
                                 </li>
                             </ul>
-                            <ul class="single-app-secondry-specs-list">
+                            <ul class="single-app-secondry-specs-list animation-element-default">
                                 <li>Ванная комната — 15.2 м²</li>
                                 <li>Гостинная — 15.2 м²</li>
                                 <li>Спальня — 15.2 м²</li>
                                 <li>Коридор — 15.2 м²</li>
                             </ul>
-                            <div class="single-app-description-footer">
+                            <div class="single-app-description-footer animation-element-default">
                                 <a href="#" class="button button-skew button-red cta-modal-btn">
                                     <span>Организовать просмотр</span>
                                 </a>
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                     <div class="single-app-article-flex-right">
-                        <ul class="single-app-article-flex-right-tabs">
+                        <ul class="single-app-article-flex-right-tabs animation-element-default">
                             <li class="active">
                                 <a href="#">План квартиры</a>
                             </li>
@@ -51,17 +51,17 @@
                         </ul>
                         <div class="single-app-article-flex-right-visuals">
                             <div class="single-app-article-flex-right-visuals-flex">
-                                <div class="single-app-article-flex-right-visuals-flex-left">
+                                <div class="single-app-article-flex-right-visuals-flex-left animation-element-default">
                                     <img src="statics/img/single_app/app.png" alt="app">
                                 </div>
                                 <div class="single-app-article-flex-right-visuals-flex-right">
-                                    <div class="plan-spot">
+                                    <div class="plan-spot animation-element-default">
                                         <div class="plan-spot-img">
                                             <img src="statics/img/single_app/plan-spot.png" alt="">
                                         </div>
                                         <span>Расположение <br>на генплане</span>
                                     </div>
-                                    <div class="plan-spot">
+                                    <div class="plan-spot animation-element-default">
                                         <div class="plan-spot-img">
                                             <img src="statics/img/single_app/floor-spot.png" alt="">
                                         </div>
@@ -69,7 +69,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="wind-rose single-app-wind-rose">
+                            <div class="wind-rose single-app-wind-rose animation-element-default">
                                 <span>с</span>
                                 <span>в</span>
                                 <span>ю</span>
@@ -81,12 +81,12 @@
             </article>
             <section class="front-page-news">
                 <div class="front-page-news-header">
-                    <h2>Похожие квартиры</h2>
-                    <a href="page-filter.php" class="link link-simple link-red news-link">Все квартиры</a>
+                    <h2 class="animation-element-default">Похожие квартиры</h2>
+                    <a href="page-filter.php" class="link link-simple link-red news-link animation-element-default">Все квартиры</a>
                 </div>
                 <div class="front-page-news-slider" id="flats_slider">
                     <ul class="front-page-news-slider-list alike-flats-list">
-                        <li>
+                        <li class="animation-element-default">
                             <a href="single-app.php">
                                 <span>03-02</span>
                                 <div class="filter-page-container-right-result-list-img">
@@ -100,7 +100,7 @@
                                 </ul>
                             </a>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <a href="single-app.php">
                                 <span>03-02</span>
                                 <div class="filter-page-container-right-result-list-img">
@@ -114,7 +114,7 @@
                                 </ul>
                             </a>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <a href="single-app.php">
                                 <span>03-02</span>
                                 <div class="filter-page-container-right-result-list-img">
@@ -128,7 +128,7 @@
                                 </ul>
                             </a>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <a href="single-app.php">
                                 <span>03-02</span>
                                 <div class="filter-page-container-right-result-list-img">
@@ -142,7 +142,7 @@
                                 </ul>
                             </a>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <a href="single-app.php">
                                 <span>03-02</span>
                                 <div class="filter-page-container-right-result-list-img">
@@ -156,7 +156,7 @@
                                 </ul>
                             </a>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <a href="single-app.php">
                                 <span>03-02</span>
                                 <div class="filter-page-container-right-result-list-img">
@@ -170,7 +170,7 @@
                                 </ul>
                             </a>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <a href="single-app.php">
                                 <span>03-02</span>
                                 <div class="filter-page-container-right-result-list-img">

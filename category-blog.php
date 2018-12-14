@@ -2,8 +2,8 @@
     <div class="page-wrapper">
         <main class="overflow-hidden">
             <section class="category-blog-section">
-                <h1>Новости и Акции</h1>
-                <ul class="category-blog-categories-list">
+                <h1 class="animation-element-default">Новости и Акции</h1>
+                <ul class="category-blog-categories-list animation-element-default">
                     <li class="active">
                         <a href="category-blog.php">Новости</a>
                     </li>
@@ -11,7 +11,7 @@
                         <a href="category-blog.php">Акционные предложения</a>
                     </li>
                 </ul>
-                <div class="category-blog-list-container">
+                <div class="category-blog-list-container animation-element-default">
                     <ul class="category-blog-list">
                         <li>
                             <a href="single-blog.php">

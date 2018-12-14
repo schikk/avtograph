@@ -2,11 +2,11 @@
     <div class="page-wrapper">
         <main class="overflow-hidden">
             <div class="floor-slice-page-container">
-                <div class="floor-slice-page-container-top">
+                <div class="floor-slice-page-container-top animation-element-default">
                     <a href="page-floors.php">вернуться к генплану</a>
                 </div>
                 <div class="floor-slice-page-flex">
-                    <div class="floor-slice-page-left">
+                    <div class="floor-slice-page-left animation-element-default">
                         <form action="#" method="POST">
                             <div class="floor-slice-page-form-section">
                                 <span>Очередь</span>
@@ -122,7 +122,7 @@
                         </form>
                         <span class="mobile-floors-close-btn" id="mobile-floors-close-btn"></span>
                     </div>
-                    <div class="floor-slice-page-right">
+                    <div class="floor-slice-page-right animation-element-default">
                         <div class="floor-slice-page-right-pane">
                             <div class="floor-slice-page-right-pane-img">
                                 <img src="statics/img/floor-slice/floor-slice.png" alt="">    

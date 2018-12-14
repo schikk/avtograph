@@ -3,7 +3,7 @@
         <main class="overflow-hidden">
             <div class="filter-page-container">
                 <div class="filter-page-container-flex">
-                    <div class="filter-page-container-left">
+                    <div class="filter-page-container-left animation-element-default">
                         <h1>Подобрать <br>квартиру<span class="mobile-filter-close-btn" id="mobile-filter-close-btn"></span></h1>
                         <div class="filter-page-container-left-form-container">
                             <div class="filter-page-container-left-form-container-inner">
@@ -62,7 +62,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="filter-page-container-right">
+                    <div class="filter-page-container-right animation-element-default">
                         <ul class="filter-categories-list">
                             <li class="active">
                                 <a href="page-filter.php">Все квартиры</a>

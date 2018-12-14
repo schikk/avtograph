@@ -1023,7 +1023,6 @@ span.del-line::after {
     float: right;
     transform-origin: 0 0;
     transform: skewX(19deg);
-    background-color: #16284A;
 }
 
 .front-page-choose-list {
@@ -1575,9 +1574,14 @@ span.del-line::after {
 }
 
 .front-page-close-needs-slider-list > li {
+    position: relative;
     width: 7.58rem;
     height: 100%;
     overflow: hidden;
+}
+
+.front-page-close-needs-slider-list > li.active {
+    z-index: 2;
 }
 
 .front-page-close-needs-slider-list > li > img {
@@ -3079,6 +3083,7 @@ span.del-line::after {
     position: relative;
     width: 100%;
     min-height: 5.05rem;
+    overflow: hidden;
 }
 
 .single-blog-article-header > img {
@@ -4601,6 +4606,201 @@ body.has-preloader {
 }
 
 
+
+/* Reveals animation */
+
+/* PAGE - HOME */
+
+@media all and (min-width: 768px) {
+    .animation-element .front-page-intro-background > img {
+        transform: scale(1.2);
+        transition: transform 4s ease;
+    }
+
+    .animation-element.in-view .front-page-intro-background > img {
+        transform: scale(1);
+    }
+
+    .animation-element-default {
+        transform: translateY(.5rem) scale(.9);
+        opacity: 0;
+        transition: transform 1s ease, opacity 1s ease;
+    }
+
+    .animation-element-default.in-view {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+
+    .front-page-intro-content-block > h1.animation-element-default {
+        transition-delay: .2s;
+    }
+
+    .front-page-intro-content-block > p.animation-element-default {
+        transition-delay: .4s;
+    }
+
+    .about-complex-page-intro .front-page-intro-content-block > p.animation-element-default + .animation-element-default {
+        transition-delay: .6s;
+    }
+
+    .floors-page-intro.animation-element .vr-btn {
+        opacity: 0;
+        transform: translateY(.5rem) scale(.9);
+        transition: border-color .5s ease, transform 1s ease, opacity 1s ease;
+    }
+
+    .floors-page-intro.animation-element.in-view .vr-btn {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        transition-delay: .2s;
+    }
+
+    .floors-page-intro.animation-element .button-choose-floor {
+        transform: skewX(19deg) translateX(4rem);
+        opacity: 0;
+    }
+
+    .floors-page-intro.animation-element.in-view .button-choose-floor {
+        transform: skewX(19deg) translateX(0);
+        opacity: 1;
+        transition: transform .6s, box-shadow .6s ease;
+    }
+
+    .filter-page-container-right.animation-element-default {
+        transition-delay: .4s;
+    }
+
+    .plan-spot.animation-element-default {
+        transition-delay: .1s;
+    }
+
+    .plan-spot.animation-element-default:last-of-type {
+        transition-delay: .2s;
+    }
+
+    .single-app-wind-rose.animation-element-default {
+        transition-delay: .3s;
+    }
+
+    .single-app-description > h2.animation-element-default {
+        transition-delay: .5s;
+    }
+
+    .single-app-main-specs-list.animation-element-default {
+        transition-delay: .6s;
+    }
+
+    .single-app-secondry-specs-list.animation-element-default {
+        transition-delay: .7s;
+    }
+
+    .single-app-description-footer.animation-element-default {
+        transition-delay: .8s;
+    }
+
+    .progress-page-intro-content-left > p.animation-element-default {
+        transition-delay: .1s;
+    }
+
+    .total-progress-list > li.animation-element-default:nth-of-type(1) {
+        transition-delay: .2s;
+    }
+
+    .total-progress-list > li.animation-element-default:nth-of-type(2) {
+        transition-delay: .3s;
+    }
+
+    .total-progress-list > li.animation-element-default:nth-of-type(3) {
+        transition-delay: .4s;
+    }
+
+    .total-progress-list > li.animation-element-default:nth-of-type(4) {
+        transition-delay: .5s;
+    }
+
+    .progress-news-list-item-content > h3.animation-element-default {
+        transition-delay: .1s;
+    }
+
+    .progress-news-list-item-content > p.animation-element-default {
+        transition-delay: .2s;
+    }
+
+    .progress-news-list-item-content .link-container.animation-element-default {
+        transition-delay: .3s;
+    }
+
+    .floor-slice-page-left.animation-element-default {
+        transition-delay: .1s;
+    }
+
+    .floor-slice-page-right.animation-element-default {
+        transition-delay: .3s;
+    }
+
+    .category-blog-categories-list.anim.animation-element-default {
+        transition-delay: .1s;
+    }
+
+    .category-blog-list-container.animation-element-default {
+        transition-delay: .3s;
+    }
+
+    .developer-intro-logo.animation-element-default {
+        transition-delay: .6s;
+    }
+
+    .contacts-page-column:first-of-type > h2.animation-element-default {
+        transition-delay: .1s;
+    }
+
+    .contacts-page-column:first-of-type .contacts-page-column-list.animation-element-default {
+        transition-delay: .2s;
+    }
+
+    .contacts-page-column:last-of-type > h2.animation-element-default {
+        transition-delay: .3s;
+    }
+
+    .contacts-page-column:last-of-type .contacts-page-column-list.animation-element-default {
+        transition-delay: .4s;
+    }
+
+    .contacts-page-cta.animation-element-default {
+        transition-delay: .5s;
+    }
+
+    .contacts-map.animation-element-default {
+        transition-delay: .6s;
+    }
+
+    .single-blog-article-header > img.animation-element {
+        transform: scale(1.2);
+        transition: transform 4s ease;
+    }
+
+    .single-blog-article-header > img.animation-element.in-view {
+        transform: scale(1);
+    }
+
+    .single-blog-article-header-content > h1.animation-element-default {
+        transition-delay: .1s;
+    }
+
+    .single-blog-article-header-content > span.animation-element-default {
+        opacity: 0;
+        transition-delay: .3s;
+    }
+
+    .single-blog-article-header-content > span.animation-element-default.in-view {
+        opacity: .4;
+    }
+
+    .single-blog-article-content.animation-element-default {
+        transition-delay: .5s;
+    }
+}
 
 
 

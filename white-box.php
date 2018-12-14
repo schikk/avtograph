@@ -4,13 +4,13 @@
             <div class="single-blog-article-container">
                 <article>
                     <div class="single-blog-article-header">
-                        <img src="statics/img/blog/news_inner_big.png" alt="title">
+                        <img class="animation-element" src="statics/img/blog/news_inner_big.png" alt="title">
                         <div class="single-blog-article-header-content">
-                            <span>23 вересня, 2018</span>
-                            <h1>White box</h1>
+                            <span class="animation-element-default">23 вересня, 2018</span>
+                            <h1 class="animation-element-default">White box</h1>
                         </div>
                     </div>
-                    <div class="single-blog-article-content clearfix">
+                    <div class="single-blog-article-content clearfix animation-element-default">
                         <p>Плануючи створення Метрополіса, ми розуміли — це особливий проект. Він змінить ставлення до того, яким має бути комплекс для життя, де врахована кожна дрібниця. Де попереду технологій стоїть людина та її потреби.</p>
                         <p>Прийшов час, коли стало зрозуміло: Метрополіс — це не звичайний ЖК, а справжня екосфера.</p>
                         <p>Екосфера безпеки та розуму, життя у якій дає сили. Це новий простір, де ми хотіли б жити самі. Тому при створенні комплексу ми додали консьєрж-сервіс, комфортне лобі, великий закритий парк і місця для відпочинку. Місце, де ми дбаємо про здоровий спосіб життя, енергоефективність, спокій та комфорт. Все це — ваш новий простір, Екосфера для життя.</p>
@@ -28,7 +28,7 @@
                                 <img src="statics/img/blog/news_image_4.png" alt="">
                             </li>
                         </ul>
-                        <div class="article-cta-block">
+                        <div class="article-cta-block animation-element-default">
                             <a href="page-floors.php" class="button button-skew button-red">
                                 <span>+  Обрати квартиру</span>
                             </a>
@@ -37,12 +37,12 @@
                 </article>
                 <section class="front-page-news">
                     <div class="front-page-news-header">
-                        <h2>Iншi новини</h2>
-                        <a href="#" class="link link-simple link-red news-link">+  Всi новини</a>
+                        <h2 class="animation-element-default">Iншi новини</h2>
+                        <a href="#" class="link link-simple link-red news-link animation-element-default">+  Всi новини</a>
                     </div>
                     <div class="front-page-news-slider" id="news_slider">
                         <ul class="front-page-news-slider-list">
-                            <li>
+                            <li class="animation-element-default">
                                 <a href="#">
                                     <span class="front-page-news-slider-list-item-time">23. 08. 2018</span>
                                     <h3>Заява ТОВ «Д-І-М»</h3>
@@ -50,7 +50,7 @@
                                     <span class="front-page-news-slider-list-item-link-label">+  Читати новину</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="animation-element-default">
                                 <a href="#">
                                     <span class="front-page-news-slider-list-item-time">23. 08. 2018</span>
                                     <h3>Заява ТОВ «Д-І-М»</h3>
@@ -58,7 +58,7 @@
                                     <span class="front-page-news-slider-list-item-link-label">+  Читати новину</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="animation-element-default">
                                 <a href="#">
                                     <span class="front-page-news-slider-list-item-time">23. 08. 2018</span>
                                     <h3>Заява ТОВ «Д-І-М»</h3>
@@ -66,7 +66,7 @@
                                     <span class="front-page-news-slider-list-item-link-label">+  Читати новину</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="animation-element-default">
                                 <a href="#">
                                     <span class="front-page-news-slider-list-item-time">23. 08. 2018</span>
                                     <h3>Заява ТОВ «Д-І-М»</h3>
@@ -74,7 +74,7 @@
                                     <span class="front-page-news-slider-list-item-link-label">+  Читати новину</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="animation-element-default">
                                 <a href="#">
                                     <span class="front-page-news-slider-list-item-time">23. 08. 2018</span>
                                     <h3>Заява ТОВ «Д-І-М»</h3>
@@ -82,7 +82,7 @@
                                     <span class="front-page-news-slider-list-item-link-label">+  Читати новину</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="animation-element-default">
                                 <a href="#">
                                     <span class="front-page-news-slider-list-item-time">23. 08. 2018</span>
                                     <h3>Заява ТОВ «Д-І-М»</h3>

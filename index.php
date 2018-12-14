@@ -1,15 +1,15 @@
 <?php require('header.php'); ?>
     <div class="page-wrapper">
         <main class="overflow-hidden">
-            <section class="front-page-intro">
+            <section class="front-page-intro animation-element">
                 <div class="front-page-intro-background">
                     <img src="statics/img/front_page/intro2.jpg" alt="Avtograf building image">
                     <!-- <div class="front-page-intro-background-gradient"></div> -->
                 </div>
                 <div class="front-page-intro-content custom-cursor-block">
                     <div class="front-page-intro-content-block">
-                        <h1>Новий Автограф</h1>
-                        <p>Місце, <br>де обирають <span class="del-line">не квартиру,</span> <br><span class="del-line">а</span> домівку</p>
+                        <h1 class="animation-element-default">Новий Автограф</h1>
+                        <p class="animation-element-default">Місце, <br>де обирають <span class="del-line">не квартиру,</span> <br><span class="del-line">а</span> домівку</p>
                     </div>
                     <div class="front-page-intro-animation-block">
                         <img src="statics/img/front_page/big_A.png" id="particles_img" >
@@ -27,12 +27,12 @@
                 </div>                   
                 <div class="front-page-description-content">
                     <span class="front-page-description-bg-text">Новий <br>Автограф</span>
-                    <h2>Нова окраса лівого берега</h2>
+                    <h2 class="animation-element-default">Нова окраса лівого берега</h2>
                     <div class="front-page-description-image-mobile">
                         <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
                     </div> 
-                    <p>Виняткові за своєю красою домівки комплексу для життя <b>«Новий Автограф»</b>, розташовані в одній з наймальовничіших локацій Дніпровського району столиці. Варто хоча б раз побувати тут, щоб зрозуміти, що це – місце, куди хочеться повертатися знову й знову.</p>
-                    <div class="front-page-description-content-button-container">
+                    <p class="animation-element-default">Виняткові за своєю красою домівки комплексу для життя <b>«Новий Автограф»</b>, розташовані в одній з наймальовничіших локацій Дніпровського району столиці. Варто хоча б раз побувати тут, щоб зрозуміти, що це – місце, куди хочеться повертатися знову й знову.</p>
+                    <div class="front-page-description-content-button-container animation-element-default">
                          <a href="page-about-complex.php" class="button button-skew button-red front-page-description-content-button">
                             <span>+  Більше про комплекс</span>
                         </a>                       
@@ -41,31 +41,31 @@
             </section>
             <section class="front-page-choose clearfix">
                 <div class="front-page-choose-content-container">
-                    <h2>Квартири на будь-який смак!</h2>
+                    <h2 class="animation-element-default">Квартири на будь-який смак!</h2>
                     <ul class="front-page-choose-stats-list">
-                        <li>
+                        <li class="animation-element-default">
                             <span>3</span>
                             <span>Секції</span>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <span>2,7</span>
                             <span>Висота стель</span>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <span>18-26</span>
                             <span>Поверхів</span>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <span>478</span>
                             <span>Квартир</span>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <span>2021</span>
                             <span>введеня в эксплуатацiю</span>
                         </li>
                     </ul>
-                    <p>Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємосяу нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою!</p>
-                    <div class="front-page-choose-content-buttons-container">
+                    <p class="animation-element-default">Наша основна мета – створити для вас дім, котрий стане найзатишнішим місцем на світі. Саме цим правилом ми керуємосяу нашому прагненні створити таку домівку, в яку хотілося б повертатися щодня. Час обрати свою!</p>
+                    <div class="front-page-choose-content-buttons-container animation-element-default">
                         <a href="page-floors.php" class="button button-skew button-red">
                             <span>+  Обрати квартиру</span>
                         </a>
@@ -76,31 +76,31 @@
                 </div>
                 <div class="front-page-choose-list-container">
                     <ul class="front-page-choose-list">
-                        <li>
+                        <li class="animation-element-default">
                             <a href="page-filter.php">
                                 <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
                                 <span>1 — кiмнатнi</span>
                             </a>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <a href="page-filter.php">
                                 <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
                                 <span>2 — кiмнатнi</span>
                             </a>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <a href="page-filter.php">
                                 <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
                                 <span>3 — кiмнатнi</span>
                             </a>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <a href="page-filter.php">
                                 <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
                                 <span>4+ — кiмнатнi</span>
                             </a>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <a href="page-filter.php">
                                 <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
                                 <span>2 — рiвневi</span>
@@ -121,9 +121,11 @@
                 <div class="front-page-security-content-container clearfix">
                     <div class="front-page-security-content">
                         <div class="front-page-security-content-data">
-                            <h2>Двір без машин</h2>
-                            <p>В комплексі для життя «Новий Автограф» ми реалізували концепцію внутрішнього двору за принципом громадьского простору – для людей, а не автівок.</p>
-                            <a href="single-blog.php" class="link link-simple link-red security-link">+  Більше про безпеку</a>
+                            <h2 class="animation-element-default">Двір без машин</h2>
+                            <p class="animation-element-default">В комплексі для життя «Новий Автограф» ми реалізували концепцію внутрішнього двору за принципом громадьского простору – для людей, а не автівок.</p>
+                            <div class="animation-element-default">
+                                <a href="single-blog.php" class="link link-simple link-red security-link">+  Більше про безпеку</a>
+                            </div>
                         </div>
                     </div>
                     <div class="front-page-security-slider-container">
@@ -183,9 +185,11 @@
             </section>
             <section class="front-page-park clearfix">
                 <div class="front-page-park-content">
-                    <h2>Краса 4 сезонів в міському оазисі</h2>
-                    <p>Що може бути кращим за можливість милуватися неймовірними краєвидами з вашого дома? Парк з озером, сквер, ліс – перше, що ви бачитимете з вікон своєї домівки.</p>
-                    <a href="single-blog.php" class="link link-simple link-red park-link">+  Більше про оточення</a>
+                    <h2 class="animation-element-default">Краса 4 сезонів в міському оазисі</h2>
+                    <p class="animation-element-default">Що може бути кращим за можливість милуватися неймовірними краєвидами з вашого дома? Парк з озером, сквер, ліс – перше, що ви бачитимете з вікон своєї домівки.</p>
+                    <div class="animation-element-default">
+                        <a href="single-blog.php" class="link link-simple link-red park-link">+  Більше про оточення</a>
+                    </div>
                 </div>
                 <div class="front-page-park-slider-container">
                     <div class="front-page-park-slider" id="park_slider">
@@ -218,9 +222,11 @@
             </section>
             <section class="front-page-close-needs clearfix">
                 <div class="front-page-close-needs-content">
-                    <h2>Все саме найнеобхідніше</h2>
-                    <p>Ми знаємо, що ваш найцінніший ресурс – це час. Саме цьому у комплексі для життя «Новий Автограф» буде власна розвинута інфраструктура.</p>
-                    <a href="page-about-complex.php#infrastructure" class="link link-simple link-red close-needs-link">+  Дізнатись більше</a>
+                    <h2 class="animation-element-default">Все саме найнеобхідніше</h2>
+                    <p class="animation-element-default">Ми знаємо, що ваш найцінніший ресурс – це час. Саме цьому у комплексі для життя «Новий Автограф» буде власна розвинута інфраструктура.</p>
+                    <div class="animation-element-default">
+                        <a href="page-about-complex.php#infrastructure" class="link link-simple link-red close-needs-link">+  Дізнатись більше</a>
+                    </div>
                 </div>
                 <div class="front-page-close-needs-slider-container">
                     <div class="front-page-close-needs-slider" id="close_needs_slider">
@@ -258,15 +264,30 @@
                             <div class="front-page-progress-article-slider-container">
                                 <ul class="front-page-progress-article-slider-list clearfix">
                                     <li>
-                                        <span>23 вересня, 2018</span>
-                                        <h3>Завершенний <br>5й поверх</h3>
+                                        <span class="animation-element-default">23 вересня, 2018</span>
+                                        <h3 class="animation-element-default">Завершенний <br>5й поверх</h3>
                                         <div class="mobile-progress-img">
                                             <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
                                         </div>
-                                        <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
-                                        <a href="page-progress.php" class="button button-skew button-red">
-                                            <span>Хочу переконатись</span>
-                                        </a>
+                                        <p class="animation-element-default">Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
+                                        <div class="animation-element-default">
+                                            <a href="page-progress.php" class="button button-skew button-red">
+                                                <span>Хочу переконатись</span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="animation-element-default">23 вересня, 2018</span>
+                                        <h3 class="animation-element-default">Завершенний <br>5й поверх</h3>
+                                        <div class="mobile-progress-img">
+                                            <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
+                                        </div>
+                                        <p class="animation-element-default">Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
+                                        <div class="animation-element-default">
+                                            <a href="page-progress.php" class="button button-skew button-red">
+                                                <span>Хочу переконатись</span>
+                                            </a>
+                                        </div>
                                     </li>
                                     <li>
                                         <span>23 вересня, 2018</span>
@@ -280,92 +301,95 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <span>23 вересня, 2018</span>
-                                        <h3>Завершенний <br>5й поверх</h3>
+                                        <span class="animation-element-default">23 вересня, 2018</span>
+                                        <h3 class="animation-element-default">Завершенний <br>5й поверх</h3>
                                         <div class="mobile-progress-img">
                                             <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
                                         </div>
-                                        <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
-                                        <a href="page-progress.php" class="button button-skew button-red">
-                                            <span>Хочу переконатись</span>
-                                        </a>
+                                        <p class="animation-element-default">Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
+                                        <div class="animation-element-default">
+                                            <a href="page-progress.php" class="button button-skew button-red">
+                                                <span>Хочу переконатись</span>
+                                            </a>
+                                        </div>
                                     </li>
                                     <li>
-                                        <span>23 вересня, 2018</span>
-                                        <h3>Завершенний <br>5й поверх</h3>
+                                        <span class="animation-element-default">23 вересня, 2018</span>
+                                        <h3 class="animation-element-default">Завершенний <br>5й поверх</h3>
                                         <div class="mobile-progress-img">
                                             <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
                                         </div>
-                                        <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
-                                        <a href="page-progress.php" class="button button-skew button-red">
-                                            <span>Хочу переконатись</span>
-                                        </a>
+                                        <p class="animation-element-default">Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
+                                        <div class="animation-element-default">
+                                            <a href="page-progress.php" class="button button-skew button-red">
+                                                <span>Хочу переконатись</span>
+                                            </a>
+                                        </div>
                                     </li>
                                     <li>
-                                        <span>23 вересня, 2018</span>
-                                        <h3>Завершенний <br>5й поверх</h3>
+                                        <span class="animation-element-default">23 вересня, 2018</span>
+                                        <h3 class="animation-element-default">Завершенний <br>5й поверх</h3>
                                         <div class="mobile-progress-img">
                                             <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
                                         </div>
-                                        <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
-                                        <a href="page-progress.php" class="button button-skew button-red">
-                                            <span>Хочу переконатись</span>
-                                        </a>
+                                        <p class="animation-element-default">Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
+                                        <div class="animation-element-default">
+                                            <a href="page-progress.php" class="button button-skew button-red">
+                                                <span>Хочу переконатись</span>
+                                            </a>
+                                        </div>
                                     </li>
                                     <li>
-                                        <span>23 вересня, 2018</span>
-                                        <h3>Завершенний <br>5й поверх</h3>
+                                        <span class="animation-element-default">23 вересня, 2018</span>
+                                        <h3 class="animation-element-default">Завершенний <br>5й поверх</h3>
                                         <div class="mobile-progress-img">
                                             <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
                                         </div>
-                                        <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
-                                        <a href="page-progress.php" class="button button-skew button-red">
-                                            <span>Хочу переконатись</span>
-                                        </a>
+                                        <p class="animation-element-default">Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
+                                        <div class="animation-element-default">
+                                            <a href="page-progress.php" class="button button-skew button-red">
+                                                <span>Хочу переконатись</span>
+                                            </a>
+                                        </div>
                                     </li>
                                     <li>
-                                        <span>23 вересня, 2018</span>
-                                        <h3>Завершенний <br>5й поверх</h3>
+                                        <span class="animation-element-default">23 вересня, 2018</span>
+                                        <h3 class="animation-element-default">Завершенний <br>5й поверх</h3>
                                         <div class="mobile-progress-img">
                                             <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
                                         </div>
-                                        <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
-                                        <a href="page-progress.php" class="button button-skew button-red">
-                                            <span>Хочу переконатись</span>
-                                        </a>
+                                        <p class="animation-element-default">Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
+                                        <div class="animation-element-default">
+                                            <a href="page-progress.php" class="button button-skew button-red">
+                                                <span>Хочу переконатись</span>
+                                            </a>
+                                        </div>
                                     </li>
                                     <li>
-                                        <span>23 вересня, 2018</span>
-                                        <h3>Завершенний <br>5й поверх</h3>
+                                        <span class="animation-element-default">23 вересня, 2018</span>
+                                        <h3 class="animation-element-default">Завершенний <br>5й поверх</h3>
                                         <div class="mobile-progress-img">
                                             <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
                                         </div>
-                                        <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
-                                        <a href="page-progress.php" class="button button-skew button-red">
-                                            <span>Хочу переконатись</span>
-                                        </a>
+                                        <p class="animation-element-default">Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
+                                        <div class="animation-element-default">
+                                            <a href="page-progress.php" class="button button-skew button-red">
+                                                <span>Хочу переконатись</span>
+                                            </a>
+                                        </div>
                                     </li>
                                     <li>
-                                        <span>23 вересня, 2018</span>
-                                        <h3>Завершенний <br>5й поверх</h3>
+                                        <span class="animation-element-default">23 вересня, 2018</span>
+                                        <h3 class="animation-element-default">Завершенний <br>5й поверх</h3>
                                         <div class="mobile-progress-img">
                                             <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
                                         </div>
-                                        <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
-                                        <a href="page-progress.php" class="button button-skew button-red">
-                                            <span>Хочу переконатись</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <span>23 вересня, 2018</span>
-                                        <h3>Завершенний <br>5й поверх</h3>
-                                        <div class="mobile-progress-img">
-                                            <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">
+                                        <p class="animation-element-default">Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
+                                        <div class="animation-element-default">
+                                            <a href="page-progress.php" class="button button-skew button-red">
+                                                <span>Хочу переконатись</span>
+                                            </a>
                                         </div>
-                                        <p>Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом… <a href="single-blog.php">Читати повнiстью</a></p>
-                                        <a href="page-progress.php" class="button button-skew button-red">
-                                            <span>Хочу переконатись</span>
-                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -479,23 +503,25 @@
             </section>
             <section class="front-page-developer">
                 <div class="front-page-developer-content">
-                    <div class="front-page-developer-logo">
+                    <div class="front-page-developer-logo animation-element-default">
                         <img src="statics/img/front_page/dim_logo_medium.svg" alt="DIM logotype">
                     </div>
                     <h2>DIM - це Довіра</h2>
-                    <p>Група компаній ДІМ – це девелоперський холдинг повного циклу.</p>
-                    <p>Надійність девелопера - головний орієнтир при покупці квартири.<br>Найкращий доказ нашої репутації - успішно реалізовані проекти.</p>
-                    <a href="page-about-developer.php" class="link link-simple link-red developer-link">+  Дізнатися більше</a>
+                    <p class="animation-element-default">Група компаній ДІМ – це девелоперський холдинг повного циклу.</p>
+                    <p class="animation-element-default">Надійність девелопера - головний орієнтир при покупці квартири.<br>Найкращий доказ нашої репутації - успішно реалізовані проекти.</p>
+                    <div class="animation-element-default">
+                        <a href="page-about-developer.php" class="link link-simple link-red developer-link">+  Дізнатися більше</a>
+                    </div>
                 </div>
             </section>
             <section class="front-page-news">
                 <div class="front-page-news-header">
-                    <h2>Нашi новини</h2>
-                    <a href="category-blog.php" class="link link-simple link-red news-link">+  Всi новини</a>
+                    <h2 class="animation-element-default">Нашi новини</h2>
+                    <a href="category-blog.php" class="link link-simple link-red news-link animation-element-default">+  Всi новини</a>
                 </div>
                 <div class="front-page-news-slider" id="news_slider">
                     <ul class="front-page-news-slider-list">
-                        <li>
+                        <li class="animation-element-default">
                             <a href="single-blog.php">
                                 <span class="front-page-news-slider-list-item-time">23. 08. 2018</span>
                                 <h3>Заява ТОВ «Д-І-М»</h3>
@@ -503,7 +529,7 @@
                                 <span class="front-page-news-slider-list-item-link-label">+  Читати новину</span>
                             </a>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <a href="single-blog.php">
                                 <span class="front-page-news-slider-list-item-time">23. 08. 2018</span>
                                 <h3>Заява ТОВ «Д-І-М»</h3>
@@ -511,7 +537,7 @@
                                 <span class="front-page-news-slider-list-item-link-label">+  Читати новину</span>
                             </a>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <a href="single-blog.php">
                                 <span class="front-page-news-slider-list-item-time">23. 08. 2018</span>
                                 <h3>Заява ТОВ «Д-І-М»</h3>
@@ -519,7 +545,7 @@
                                 <span class="front-page-news-slider-list-item-link-label">+  Читати новину</span>
                             </a>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <a href="single-blog.php">
                                 <span class="front-page-news-slider-list-item-time">23. 08. 2018</span>
                                 <h3>Заява ТОВ «Д-І-М»</h3>
@@ -527,7 +553,7 @@
                                 <span class="front-page-news-slider-list-item-link-label">+  Читати новину</span>
                             </a>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <a href="single-blog.php">
                                 <span class="front-page-news-slider-list-item-time">23. 08. 2018</span>
                                 <h3>Заява ТОВ «Д-І-М»</h3>
@@ -535,7 +561,7 @@
                                 <span class="front-page-news-slider-list-item-link-label">+  Читати новину</span>
                             </a>
                         </li>
-                        <li>
+                        <li class="animation-element-default">
                             <a href="single-blog.php">
                                 <span class="front-page-news-slider-list-item-time">23. 08. 2018</span>
                                 <h3>Заява ТОВ «Д-І-М»</h3>
