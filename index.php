@@ -3,8 +3,8 @@
         <main class="overflow-hidden">
             <section class="front-page-intro animation-element">
                 <div class="front-page-intro-background">
-                    <img src="statics/img/front_page/intro2.jpg" alt="Avtograf building image">
-                    <!-- <div class="front-page-intro-background-gradient"></div> -->
+                    <img src="statics/img/front_page/new_frontpage_photo/pervyy_ekran.jpg" alt="Avtograf building image">
+                    <div class="front-page-intro-background-gradient"></div>
                 </div>
                 <div class="front-page-intro-content custom-cursor-block">
                     <div class="front-page-intro-content-block">
@@ -22,14 +22,15 @@
                 </div>
             </section>
             <section class="front-page-description clearfix">
-                <div class="front-page-description-image gallery-button custom-cursor-block" data-images="defaultImages">
-                    <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
+                <div class="front-page-description-image gallery-button custom-cursor-block img-animation-element" data-images="defaultImages">
+                    <img src="statics/img/front_page/new_frontpage_photo/nova_okrasa_ livogo_b.jpg" alt="Avtograf building">
+                    <div class="img-over-view"></div>
                 </div>                   
                 <div class="front-page-description-content">
                     <span class="front-page-description-bg-text">Новий <br>Автограф</span>
                     <h2 class="animation-element-default">Нова окраса лівого берега</h2>
                     <div class="front-page-description-image-mobile">
-                        <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
+                        <img src="statics/img/front_page/new_frontpage_photo/nova_okrasa_ livogo_b.jpg" alt="Avtograf building">
                     </div> 
                     <p class="animation-element-default">Виняткові за своєю красою домівки комплексу для життя <b>«Новий Автограф»</b>, розташовані в одній з наймальовничіших локацій Дніпровського району столиці. Варто хоча б раз побувати тут, щоб зрозуміти, що це – місце, куди хочеться повертатися знову й знову.</p>
                     <div class="front-page-description-content-button-container animation-element-default">
@@ -193,19 +194,14 @@
                 </div>
                 <div class="front-page-park-slider-container">
                     <div class="front-page-park-slider" id="park_slider">
-                        <div class="front-page-park-slider-list-container gallery-button custom-cursor-block" data-images="parkImages">
+                        <div class="front-page-park-slider-list-container gallery-button custom-cursor-block slider-img-animation-element" data-images="parkImages">
+                            <div class="img-over-view"></div>
                             <ul class="front-page-park-slider-list">
                                 <li>
-                                    <img src="statics/img/front_page/park_slider/1.jpg" alt="Park photo">
+                                    <img src="statics/img/front_page/new_frontpage_photo/krasa_4h_sezoniv.jpg" alt="Park photo">
                                 </li>
                                 <li>
-                                    <img src="statics/img/front_page/park_slider/1.jpg" alt="Park photo">
-                                </li>
-                                <li>
-                                    <img src="statics/img/front_page/park_slider/1.jpg" alt="Park photo">
-                                </li>
-                                <li>
-                                    <img src="statics/img/front_page/park_slider/1.jpg" alt="Park photo">
+                                    <img src="statics/img/front_page/new_frontpage_photo/krasa_4h_sezoniv2.jpg" alt="Park photo">
                                 </li>
                             </ul>
                         </div>
@@ -230,19 +226,14 @@
                 </div>
                 <div class="front-page-close-needs-slider-container">
                     <div class="front-page-close-needs-slider" id="close_needs_slider">
-                        <div class="front-page-close-needs-slider-list-container gallery-button custom-cursor-block" data-images="infrastructureImages">
+                        <div class="front-page-close-needs-slider-list-container gallery-button custom-cursor-block slider-img-animation-element" data-images="infrastructureImages">
+                            <div class="img-over-view"></div>
                             <ul class="front-page-close-needs-slider-list">
                                 <li>
-                                    <img src="statics/img/front_page/close_needs_slider/1.jpg" alt="Territory photo">
+                                    <img src="statics/img/front_page/new_frontpage_photo/vse_neobhidne.jpg" alt="Territory photo">
                                 </li>
                                 <li>
-                                    <img src="statics/img/front_page/close_needs_slider/1.jpg" alt="Territory photo">
-                                </li>
-                                <li>
-                                    <img src="statics/img/front_page/close_needs_slider/1.jpg" alt="Territory photo">
-                                </li>
-                                <li>
-                                    <img src="statics/img/front_page/close_needs_slider/1.jpg" alt="Territory photo">
+                                    <img src="statics/img/front_page/new_frontpage_photo/vse_neobhidne2.jpg" alt="Territory photo">
                                 </li>
                             </ul>
                         </div>
@@ -397,7 +388,8 @@
                         <div class="front-page-progress-slider-container">
                             <div class="front-page-progress-slider-container-inner">
                                 <div class="front-page-progress-slider">
-                                    <div class="front-page-progress-slider-list-container">
+                                    <div class="front-page-progress-slider-list-container slider-img-animation-element">
+                                        <div class="img-over-view"></div>
                                         <ul class="front-page-progress-slider-list">
                                             <li>
                                                 <img src="uploads/progress_slider/1.jpg" alt="Progress article photo">

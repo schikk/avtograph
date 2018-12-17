@@ -419,7 +419,7 @@ $(document).ready(function() {
 
     // Animations on scroll
 
-    var $animation_elements = $('.animation-element, .animation-element-default');
+    var $animation_elements = $('.animation-element, .animation-element-default, .img-animation-element, .slider-img-animation-element');
     var $window = $(window);
 
     function check_if_in_view() {
