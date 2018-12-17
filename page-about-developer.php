@@ -18,7 +18,8 @@
                 </div>
             </section>
             <section class="front-page-description about-developer-page-description clearfix">
-                <div class="front-page-description-image gallery-button custom-cursor-block" data-images="defaultImages">
+                <div class="front-page-description-image gallery-button custom-cursor-block img-animation-element" data-images="defaultImages">
+                    <div class="img-over-view"></div>
                     <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
                 </div>
                 <div class="front-page-description-content">

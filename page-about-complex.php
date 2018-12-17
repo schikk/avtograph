@@ -20,8 +20,9 @@
                 </div>
             </section>
             <section class="front-page-description clearfix about-complex-page-description">
-                <div class="front-page-description-image gallery-button custom-cursor-block" data-images="defaultImages">
+                <div class="front-page-description-image gallery-button custom-cursor-block img-animation-element" data-images="defaultImages">
                     <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
+                    <div class="img-over-view"></div>
                 </div>
                 <div class="front-page-description-content">
                     <span class="front-page-description-bg-text">Новий <br>Автограф</span>
@@ -96,7 +97,8 @@
                 </div>
                 <div class="front-page-park-slider-container">
                     <div class="front-page-park-slider" id="park_slider">
-                        <div class="front-page-park-slider-list-container gallery-button custom-cursor-block" data-images="parkImages">
+                        <div class="front-page-park-slider-list-container gallery-button custom-cursor-block slider-img-animation-element" data-images="parkImages">
+                            <div class="img-over-view"></div>
                             <ul class="front-page-park-slider-list">
                                 <li>
                                     <img src="statics/img/front_page/park_slider/1.jpg" alt="Park photo">
@@ -130,7 +132,8 @@
                 </div>
                 <div class="front-page-close-needs-slider-container">
                     <div class="front-page-close-needs-slider" id="close_needs_slider">
-                        <div class="front-page-close-needs-slider-list-container gallery-button custom-cursor-block" data-images="infrastructureImages">
+                        <div class="front-page-close-needs-slider-list-container gallery-button custom-cursor-block slider-img-animation-element" data-images="infrastructureImages">
+                            <div class="img-over-view"></div>
                             <ul class="front-page-close-needs-slider-list">
                                 <li>
                                     <img src="statics/img/front_page/close_needs_slider/1.jpg" alt="Territory photo">

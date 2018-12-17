@@ -69,7 +69,7 @@
                                     <a href="#" id="gallery-menu" data-images="defaultImages" class="gallery-button">Галерея</a>
                                 </li>
                                 <li>
-                                    <a href="page-floor-slice.php">Квартиры с ремонтом</a>
+                                    <a href="single-blog.php">Квартиры с ремонтом</a>
                                 </li>
                                 <li>
                                     <a href="white-box.php">White Box</a>

@@ -37,7 +37,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="progress-page-intro-content-right gallery-button custom-cursor-block" data-images="defaultImages">
+                    <div class="progress-page-intro-content-right gallery-button custom-cursor-block img-animation-element" data-images="defaultImages">
+                        <div class="img-over-view"></div>
                         <img src="statics/img/front_page/description.jpg" alt="alt">
                     </div>
                 </div>
