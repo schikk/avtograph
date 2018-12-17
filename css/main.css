@@ -4836,8 +4836,8 @@ body.has-preloader {
         opacity: 1;   
     }
     .slider-img-animation-element.in-view img {
-        -webkit-animation: sliderImgInView 1.5s ease-in-out 0.01s;
-        animation: sliderImgInView 1.5s ease-in-out 0.01s;
+        -webkit-animation: sliderImgInView 1.5s ease-in-out;
+        animation: sliderImgInView 1.5s ease-in-out;
         left: auto;
         right: 0;
         opacity: 1;   
