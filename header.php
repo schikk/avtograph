@@ -40,8 +40,14 @@
                     </li>
                 </ul>
                 <ul class="sidebar-footer-lang">
+                    <li class="current">
+                        <a href="#ukr">Ua</a>
+                    </li>
                     <li>
-                        <a href="#">En</a>
+                        <a href="#en">En</a>
+                    </li>
+                    <li>
+                        <a href="#ru">Ru</a>
                     </li>
                 </ul>
             </div>

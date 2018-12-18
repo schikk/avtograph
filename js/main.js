@@ -471,4 +471,11 @@ $(document).ready(function() {
         $('body,html').animate({scrollTop: top}, 800);
     });
 
+    // Languages choose hover
+    $('.sidebar-footer-lang').hover(function() {
+        $(this).addClass('hovered');
+    }, function() {
+        $(this).removeClass('hovered');
+    });
+
 });
