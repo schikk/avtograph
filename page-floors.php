@@ -12,7 +12,7 @@
                         <img src="statics/img/ui/vr.svg" alt="VR icon">
                     </div>
                     <a href="page-filter.php" class="button button-skew button-white button-choose-floor">
-                        <span>Подобрать по фильтру</span>
+                        <span>Підібрати по фільтру</span>
                     </a>
                 </div>
             </section>

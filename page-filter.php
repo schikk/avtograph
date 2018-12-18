@@ -4,13 +4,13 @@
             <div class="filter-page-container">
                 <div class="filter-page-container-flex">
                     <div class="filter-page-container-left animation-element-default">
-                        <h1>Подобрать <br>квартиру<span class="mobile-filter-close-btn" id="mobile-filter-close-btn"></span></h1>
+                        <h1>Обрати <br>квартиру<span class="mobile-filter-close-btn" id="mobile-filter-close-btn"></span></h1>
                         <div class="filter-page-container-left-form-container">
                             <div class="filter-page-container-left-form-container-inner">
                                 <form action="#" method="POST">
                                     <div class="filter-section-ranges">
                                         <div class="filter-section-range-block">
-                                            <span>Секция</span>
+                                            <span>Секція</span>
                                             <div class="floor-slice-page-form-section-radios-container" id="select_section">
                                                 <div class="floor-slice-page-form-section-radio">
                                                     <input type="radio" name="order" value="1" checked="true">
@@ -27,15 +27,15 @@
                                             </div>
                                         </div>                                        
                                         <div class="filter-section-range-block">
-                                            <span>Этаж</span>
+                                            <span>Поверх</span>
                                             <input type="text" id="slider_floor" class="slider" name="floor">
                                         </div>
                                         <div class="filter-section-range-block">
-                                            <span>Площадь м²</span>
+                                            <span>Площа м²</span>
                                             <input type="text" id="slider_space" class="slider" name="space">
                                         </div>
                                         <div class="filter-section-range-block">
-                                            <span>Количество комнат</span>
+                                            <span>Кількість кімнат</span>
                                             <input type="text" id="slider_rooms" class="slider" name="rooms">
                                         </div>
                                     </div>
@@ -47,15 +47,15 @@
                                             </li>
                                             <li>
                                                 <input type="checkbox" name="park_view" id="park_view">
-                                                <label for="park_view">С видом на парк</label>
+                                                <label for="park_view">З видом на парк</label>
                                             </li>
                                             <li>
                                                 <input type="checkbox" name="terrace" id="terrace">
-                                                <label for="terrace">С террасой</label>
+                                                <label for="terrace">З терасою</label>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="filter-section-ranges-checkboxes">
+<!--                                     <div class="filter-section-ranges-checkboxes">
                                         <ul class="filter-checkboxes-list">
                                             <li>
                                                 <input type="checkbox" name="parking" id="parking">
@@ -70,7 +70,7 @@
                                                 <label for="commerce">Коммерческие помещения</label>
                                             </li>
                                         </ul>
-                                    </div>
+                                    </div> -->
                                 </form>
                             </div>
                         </div>
@@ -78,22 +78,22 @@
                     <div class="filter-page-container-right animation-element-default">
                         <ul class="filter-categories-list">
                             <li class="active">
-                                <a href="page-filter.php">Все квартиры</a>
+                                <a href="page-filter.php">Всі квартири</a>
                             </li>
                             <li>
-                                <a href="page-filter.php">Акционные</a>
+                                <a href="page-filter.php">Акційні</a>
                             </li>
                         </ul>
                         <div class="filter-page-container-right-header-meta">
                             <div class="filter-page-container-right-header-meta-left">
-                                <span>Показано <span id="showed_items">32</span> квартиры из <span id="total_items">80</span></span>
+                                <span>Показано <span id="showed_items">32</span> квартири</span>
                             </div>
                             <div class="filter-page-container-right-header-meta-right">
-                                <span>Сортировать по</span>
+                                <span>Сортувати по</span>
                                 <select name="sort" id="sort_select">
-                                    <option value="floor">Этажам</option>
-                                    <option value="rooms">Количеству комнат</option>
-                                    <option value="space">Площади</option>
+                                    <option value="floor">Поверхам</option>
+                                    <option value="rooms">Кількістю кімнат</option>
+                                    <option value="space">Площі</option>
                                 </select>
                             </div>
                         </div>

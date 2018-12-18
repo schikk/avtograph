@@ -74,10 +74,10 @@
                             <p class="animation-element-default">Район, де розташований комплекс для життя «Новий Автограф», наразі чудово розвинута інфраструктура – тут працюють безліч магазинів, ТРЦ, медичних та навчальних закладів, кафе та ресторанів, салонів краси, відділень банків та інших корисних сервісів.</p>
                             <ul class="infrastructure-map-filter-list">
                                 <li class="animation-element-default infra-rest">
-                                    <span data-infra="restaurant" class="active">Рестораны</span>
+                                    <span data-infra="restaurant" class="active">Ресторани</span>
                                 </li>
                                 <li class="animation-element-default infra-products">
-                                    <span data-infra="products">Продукты</span>
+                                    <span data-infra="products">Продукти</span>
                                 </li>
                                 <li class="animation-element-default infra-sport">
                                     <span data-infra="sport">Спорт</span>

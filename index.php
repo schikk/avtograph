@@ -135,13 +135,13 @@
                                 <ul class="front-page-security-slider-list clearfix">
                                     <li>
                                         <div class="front-page-security-slider-list-item-img">
-                                            <img src="statics/img/front_page/security_slider/big_camera.svg" alt="Camera icon">
+                                            <img src="statics/img/front_page/security_slider/closed_territory.svg" alt="Camera icon">
                                         </div>
                                         <span class="front-page-security-slider-list-item-text">Закрита територія</span>
                                     </li>
                                     <li>
                                         <div class="front-page-security-slider-list-item-img">
-                                            <img src="statics/img/front_page/security_slider/big_camera.svg" alt="Camera icon">
+                                            <img src="statics/img/front_page/security_slider/car.svg" alt="Camera icon">
                                         </div>
                                         <span class="front-page-security-slider-list-item-text">Двір без машин</span>
                                     </li>
@@ -153,19 +153,19 @@
                                     </li>
                                     <li>
                                         <div class="front-page-security-slider-list-item-img">
-                                            <img src="statics/img/front_page/security_slider/big_camera.svg" alt="Camera icon">
+                                            <img src="statics/img/front_page/security_slider/underground_parking.svg" alt="Camera icon">
                                         </div>
                                         <span class="front-page-security-slider-list-item-text">Піздемний паркінг з контролем доступу</span>
                                     </li>
                                     <li>
                                         <div class="front-page-security-slider-list-item-img">
-                                            <img src="statics/img/front_page/security_slider/big_camera.svg" alt="Camera icon">
+                                            <img src="statics/img/front_page/security_slider/sport.svg" alt="Camera icon">
                                         </div>
                                         <span class="front-page-security-slider-list-item-text">Дитячий та спортивний майданчики </span>
                                     </li>
                                     <li>
                                         <div class="front-page-security-slider-list-item-img">
-                                            <img src="statics/img/front_page/security_slider/big_camera.svg" alt="Camera icon">
+                                            <img src="statics/img/front_page/security_slider/heat.svg" alt="Camera icon">
                                         </div>
                                         <span class="front-page-security-slider-list-item-text">Автономна котельня<br> на даху</span>
                                     </li>

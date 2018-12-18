@@ -63,19 +63,19 @@
                         <nav>
                             <ul class="header-menu-left-list">
                                 <li>
-                                    <a href="page-about-complex.php">О комплексе</a>
+                                    <a href="page-about-complex.php">Про комплекс</a>
                                 </li>
                                 <li>
-                                    <a href="page-floors.php">Планировки</a>
+                                    <a href="page-floors.php">Планування</a>
                                 </li>
                                 <li>
-                                    <a href="page-progress.php">Ход строительства</a>
+                                    <a href="page-progress.php">Хід будівництва</a>
                                 </li>
                                 <li>
                                     <a href="#" id="gallery-menu" data-images="defaultImages" class="gallery-button">Галерея</a>
                                 </li>
                                 <li>
-                                    <a href="single-blog.php">Квартиры с ремонтом</a>
+                                    <a href="single-blog.php">Квартири з ремонтом</a>
                                 </li>
                                 <li>
                                     <a href="white-box.php">White Box</a>
@@ -87,16 +87,16 @@
                         <nav>
                             <ul class="header-menu-right-list">
                                 <li>
-                                    <a href="category-blog.php">Новости</a>
+                                    <a href="category-blog.php">Новини</a>
                                 </li>
                                 <li>
-                                    <a href="page-about-developer.php">Застройщик</a>
+                                    <a href="page-about-developer.php">Забудовник</a>
                                 </li>
                                 <li>
-                                    <a href="page-documents.php">Документация</a>
+                                    <a href="page-documents.php">Документація</a>
                                 </li>
                                 <li>
-                                    <a href="page-contacts.php">Контакты</a>
+                                    <a href="page-contacts.php">Контакти</a>
                                 </li>
                             </ul>
                         </nav>
@@ -125,19 +125,19 @@
                         <nav>
                             <ul class="mobile-header-menu-left-list">
                                 <li>
-                                    <a href="page-about-complex.php">О комплексе</a>
+                                    <a href="page-about-complex.php">Про комплекс</a>
                                 </li>
                                 <li>
-                                    <a href="page-floors.php">Планировки</a>
+                                    <a href="page-floors.php">Планування</a>
                                 </li>
                                 <li>
-                                    <a href="page-progress.php">Ход строительства</a>
+                                    <a href="page-progress.php">Хід будівництва</a>
                                 </li>
                                 <li>
                                     <a href="#" id="gallery-menu-mobile" data-images="defaultImages" class="gallery-button">Галерея</a>
                                 </li>
                                 <li>
-                                    <a href="page-floor-slice.php">Квартиры с ремонтом</a>
+                                    <a href="page-floor-slice.php">Квартири з ремонтом</a>
                                 </li>
                                 <li>
                                     <a href="white-box.php">White Box</a>
@@ -149,16 +149,16 @@
                         <nav>
                             <ul class="mobile-header-menu-right-list">
                                 <li>
-                                    <a href="category-blog.php">Новости</a>
+                                    <a href="category-blog.php">Новини</a>
                                 </li>
                                 <li>
-                                    <a href="page-about-developer.php">Застройщик</a>
+                                    <a href="page-about-developer.php">Забудовник</a>
                                 </li>
                                 <li>
-                                    <a href="page-documents.php">Документация</a>
+                                    <a href="page-documents.php">Документація</a>
                                 </li>
                                 <li>
-                                    <a href="page-contacts.php">Контакты</a>
+                                    <a href="page-contacts.php">Контакти</a>
                                 </li>
                             </ul>
                         </nav>

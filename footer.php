@@ -48,27 +48,27 @@
                 <div class="form-feedback-col-wrapper">
                     <div class="form-feedback-left-col">
                         <div class="input-wrapper">
-                            <input class="forms-input" type="text" id="client-name" name="client-name" placeholder="Имя" title="Формат: буквы только русского и латинского алфавита (не меньше 2х букв)" autocomplete="off">
+                            <input class="forms-input" type="text" id="client-name" name="client-name" placeholder="Ім'я" title="Формат: буквы только русского и латинского алфавита (не меньше 2х букв)" autocomplete="off">
                         </div>    
                         <div class="input-wrapper">
-                            <input class="forms-input" type="tel" id="client-phone" name="client-phone" placeholder="Ваш номер телефона" autocomplete="off">                           
+                            <input class="forms-input" type="tel" id="client-phone" name="client-phone" placeholder="Ваш номер телефону" autocomplete="off">                           
                         </div>
                     </div>
                     <div class="form-feedback-right-col">
-                        <textarea class="client-mssg" id="client-mssg" name="client-mssg" placeholder="Текст вашего сообщения"></textarea>
+                        <textarea class="client-mssg" id="client-mssg" name="client-mssg" placeholder="Текст вашого повідомлення"></textarea>
                     </div>                    
                 </div>
-                <span class="phone-number-example">Пример: 095 123 45 67</span>
+                <span class="phone-number-example">Приклад: 095 123 45 67</span>
                 <input type="text" name="required" class="req-input">
                 <button class="button button-skew button-red form-feedback-order-button" id="order-button" type="submit">
-                    <span>Отправить</span>
+                    <span>Надіслати</span>
                 </button>
             </form>
-            <p class="form-feedback-info-text">Отправляя сообщение вы даете согласие на обработку своих</p>           
+            <p class="form-feedback-info-text">Відправляючи повідомлення ви даєте згоду на обробку своїх даних</p>           
         </div>
         <div class="form-feedback-success-container">
-            <h3>Спасибо!<br> Ваш запрос отправлен</h3>
-            <p>Наши консультанты свяжуться с вами в ближайшее время</p>
+            <h3>Дякуємо!<br> Ваш запит надісланий</h3>
+            <p>Наші консультанти зв'яжуться з вами найближчим часом</p>
             <a href="#" class="button button-skew button-red close-form-feedback-success">
                 <span>Закрыть</span>
             </a>
