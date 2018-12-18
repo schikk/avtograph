@@ -113,6 +113,97 @@ $(document).ready(function() {
         });
     }, preloaderDelay);
 
+    // Init without car slider
+    setTimeout(function(){
+        slider({
+            id: '#without_car_slider',
+            sliderContainer: '.front-page-close-needs-slider-list-container',
+            sliderList: '.front-page-close-needs-slider-list',
+            control: '.front-page-close-needs-slider-control',
+            hasCounter: false,
+            autoplay: true,
+            differentSlidesHeight: false
+        });
+    }, preloaderDelay);
+
+    // Init unik architecture slider
+    setTimeout(function(){
+        slider({
+            id: '#unik_architecture',
+            sliderContainer: '.front-page-park-slider-list-container',
+            sliderList: '.front-page-park-slider-list',
+            control: '.front-page-park-slider-control',
+            hasCounter: false,
+            autoplay: true,
+            differentSlidesHeight: false
+        });
+    }, preloaderDelay);
+
+    // Init closed area slider
+    setTimeout(function(){
+        slider({
+            id: '#closed_area_slider',
+            sliderContainer: '.front-page-park-slider-list-container',
+            sliderList: '.front-page-park-slider-list',
+            control: '.front-page-park-slider-control',
+            hasCounter: false,
+            autoplay: true,
+            differentSlidesHeight: false
+        });
+    }, preloaderDelay);
+
+    // Init security slider
+    setTimeout(function(){
+        slider({
+            id: '#security_slider',
+            sliderContainer: '.front-page-close-needs-slider-list-container',
+            sliderList: '.front-page-close-needs-slider-list',
+            control: '.front-page-close-needs-slider-control',
+            hasCounter: false,
+            autoplay: true,
+            differentSlidesHeight: false
+        });
+    }, preloaderDelay);
+
+    // Init parking slider
+    setTimeout(function(){
+        slider({
+            id: '#parking_slider',
+            sliderContainer: '.front-page-park-slider-list-container',
+            sliderList: '.front-page-park-slider-list',
+            control: '.front-page-park-slider-control',
+            hasCounter: false,
+            autoplay: true,
+            differentSlidesHeight: false
+        });
+    }, preloaderDelay);
+
+    // Init pantry slider
+    setTimeout(function(){
+        slider({
+            id: '#pantry_slider',
+            sliderContainer: '.front-page-close-needs-slider-list-container',
+            sliderList: '.front-page-close-needs-slider-list',
+            control: '.front-page-close-needs-slider-control',
+            hasCounter: false,
+            autoplay: true,
+            differentSlidesHeight: false
+        });
+    }, preloaderDelay);
+
+    // Init playground slider
+    setTimeout(function(){
+        slider({
+            id: '#playground_slider',
+            sliderContainer: '.front-page-park-slider-list-container',
+            sliderList: '.front-page-park-slider-list',
+            control: '.front-page-park-slider-control',
+            hasCounter: false,
+            autoplay: true,
+            differentSlidesHeight: false
+        });
+    }, preloaderDelay);                          
+
     // Docs slider
     function docsSlider(options) {
         var slider = $(options.id),

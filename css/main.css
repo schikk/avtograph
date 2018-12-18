@@ -1649,7 +1649,7 @@ span.del-line::after {
 }
 
 .front-page-close-needs-content > p {
-    width: 3.2rem;
+    width: 3.6rem;
     max-width: 100%;
     font-weight: 300;
     font-size: .18rem;
@@ -2294,7 +2294,7 @@ span.del-line::after {
 /* PAGE - ABOUT COMPLEX - Park */
 
 .about-complex-page-park .front-page-park-content{
-    padding: 1.2rem .1rem 0 2rem;
+    padding: 0 .1rem 0 2rem;
 }
 
 /* PAGE - ABOUT COMPLEX - Docs */
