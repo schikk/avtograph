@@ -2,7 +2,7 @@
     <div class="page-wrapper">
         <main class="overflow-hidden">
             <section class="documents-page-section">
-                <h1 class="animation-element-default">Документация</h1>
+                <h1 class="animation-element-default">Документація</h1>
                 <div class="documents-list-container">
                     <ul class="documents-list animation-element-default">
                         <li>

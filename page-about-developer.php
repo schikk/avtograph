@@ -9,7 +9,7 @@
                 <div class="front-page-intro-content">
                     <div class="front-page-intro-content-block">
                         <h1 class="animation-element-default">Techumanity</h1>
-                        <p class="animation-element-default">Дом только тогда чего-то стоит, когда его любят люди, живущие в нем. <strong>Наша мечта - не строить и продавать, а создавать пространства,в которых люди сами мечтали бы жить.</strong> Делать проекты, которые отличаются от всех и притягивают к себе.</p>
+                        <p class="animation-element-default">Наш ключовий принцип розвитку – <strong>techumanity</strong>, система задоволення потреб людини за допомогою технологій. Архітектура, технології та сервіс – це основоположні складові, які ми використовуємо для покращення вашого простору проживання. Ми рухаємося від забудови території до створення просторів для життя, від розширення міст до їх трансформації і перетворення.</p>
                     </div>
                     <p class="front-page-intro-address">Київ, вул. Генерала Жмаченка 26</p>
                     <a class="developer-intro-logo animation-element-default" href="https://dim-bud.ua" target="_blank">
@@ -23,12 +23,14 @@
                     <img src="statics/img/front_page/description.jpg" alt="Avtograf building">
                 </div>
                 <div class="front-page-description-content">
-                    <h2 class="animation-element-default">О девелопере</h2>
-                    <p class="animation-element-default">Це не просто новий житловий комплекс, <strong>це – комплекс для життя</strong>. Життя якісно нового рівня та комфорту. Місце, де квартира перевтілюється в рідну домівку/ стає домом. Надійність девелопера - головний орієнтир при покупці квартири. Найкращий доказ нашої репутації - успішно реалізовані проекти.</p>
+                    <h2 class="animation-element-default">Про девелопера</h2>
+                    <p class="animation-element-default"><strong>ГРУПА КОМПАНІЙ DIM</strong> – це девелоперський холдинг повного циклу.</p>
+                    <p class="animation-element-default">Наша місія – створювати простори, в яких вам захочеться жити. Саме цьому ми створюємо не житлові комплекси, а комплекси для життя. Ми створюємо комплекси, які задовольняють усі потреби сучасної людини: здоров'я, безпека, гармонійний духовний розвиток і самореалізація. В основу нашої справи ми завжди ставимо цінності людей, для яких ми створюємо місце для кращого життя. Життя, на яке ви дійсно заслуговуюте.
+                    </p>
                 </div>
             </section>
             <section class="about-developer-page-projects">
-                <h2 class="animation-element-default">Реализованные проекти</h2>
+                <h2 class="animation-element-default">Реалізовані проекти</h2>
                 <div class="about-developer-page-projects-map" id="projects_map"></div>
             </section>
             <section class="about-complex-page-params">
@@ -37,24 +39,24 @@
                     <ul class="about-complex-page-params-list">
                         <li class="animation-element-default">
                             <span>17</span>
-                            <span>лет опыта <br>в строительстве</span>
+                            <span>років досвіду <br>в будівництві</span>
                         </li>
                         <li class="animation-element-default">
                             <span>7</span>
-                            <span>реализованных <br>проектов</span>
+                            <span>реалізованих <br>проектів</span>
                         </li>
                         <li class="animation-element-default">
                             <span>1,2</span>
-                            <span>м² построенно <br>компанией</span>
+                            <span>м² побудовано <br>компанією</span>
                         </li>
                         <li class="animation-element-default">
                             <span>5 000+</span>
-                            <span>довольных владельцев <br>квартир</span>
+                            <span>задоволених володарів <br>квартир</span>
                         </li>
                     </ul>
                     <div class="about-complex-page-params-cta animation-element-default">
                         <a href="https://dim-bud.ua" class="button button-skew button-red" target="_blank">
-                            <span>Подробнее о девелопере</span>
+                            <span>Детальніше про девелопера</span>
                         </a>
                     </div>
                 </div>

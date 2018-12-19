@@ -2,17 +2,17 @@
     <div class="page-wrapper">
         <main class="overflow-hidden">
             <div class="contacts-page-content">
-                <h1 class="animation-element-default">Контакты</h1>
+                <h1 class="animation-element-default">Контакти</h1>
                 <div class="contacts-page-columns-container">
                     <div class="contacts-page-column">
-                        <h2 class="animation-element-default">Офис продаж</h2>
+                        <h2 class="animation-element-default">Офіс продаж</h2>
                         <ul class="contacts-page-column-list animation-element-default">
                             <li>
-                                <address>г. Киев, ул. Сечевых Стрельцов, 41</address>
+                                <address>м. Київ, ул. Січових Стрільців, 41</address>
                                 <ul>
                                     <li>Пн-Пт: 10:00 — 19:00</li>
                                     <li>Сб: 10:00 — 17:00</li>
-                                    <li>Вс: 11:00 — 17:00</li>
+                                    <li>Нд: 11:00 — 17:00</li>
                                 </ul>
                             </li>
                             <li>
@@ -24,14 +24,14 @@
                         </ul>
                     </div>
                     <div class="contacts-page-column">
-                        <h2 class="animation-element-default">Отдел по работе с риелторами</h2>
+                        <h2 class="animation-element-default">Відділ по роботі з ріелторами</h2>
                         <ul class="contacts-page-column-list animation-element-default">
                             <li>
-                                <address>г. Киев, ул. Сечевых Стрельцов, 41</address>
+                                <address>м. Київ, ул. Січових Стрільців, 41</address>
                                 <ul>
                                     <li>Пн-Пт: 10:00 — 19:00</li>
                                     <li>Сб: 10:00 — 17:00</li>
-                                    <li>Вс: 11:00 — 17:00</li>
+                                    <li>Нд: 11:00 — 17:00</li>
                                 </ul>
                             </li>
                             <li>
@@ -45,7 +45,7 @@
                 </div>
                 <div class="contacts-page-cta animation-element-default">
                     <a href="#" class="button button-skew button-red cta-modal-btn">
-                        <span>Записаться на просмотр</span>
+                        <span>Записатися на перегляд</span>
                     </a>
                 </div>
             </div>

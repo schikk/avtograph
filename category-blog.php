@@ -2,13 +2,13 @@
     <div class="page-wrapper">
         <main class="overflow-hidden">
             <section class="category-blog-section">
-                <h1 class="animation-element-default">Новости и Акции</h1>
+                <h1 class="animation-element-default">Новини та акції</h1>
                 <ul class="category-blog-categories-list animation-element-default">
                     <li class="active">
-                        <a href="category-blog.php">Новости</a>
+                        <a href="category-blog.php">Новини</a>
                     </li>
                     <li>
-                        <a href="category-blog.php">Акционные предложения</a>
+                        <a href="category-blog.php">Акційні пропозиції</a>
                     </li>
                 </ul>
                 <div class="category-blog-list-container animation-element-default">

@@ -5,37 +5,38 @@
                 <div class="single-app-article-flex">
                     <div class="single-app-article-flex-left">
                         <div class="floor-slice-page-container-top single-app-page-container-top animation-element-default">
-                            <a href="page-filter.php">вернуться к выбору квартир</a>
+                            <a href="page-filter.php">повернутися до вибору квартир</a>
                         </div>
                         <div class="single-app-description">
-                            <h2 class="animation-element-default">Технические характеристики</h2>
+                            <h2 class="animation-element-default">Технічні характеристики</h2>
                             <ul class="single-app-main-specs-list animation-element-default">
                                 <li>
-                                    <span>2</span>
-                                    <p>Комнаты</p>
+                                    <span>1</span>
+                                    <p>Комната</p>
                                 </li>
                                 <li>
-                                    <span>36.15</span>
-                                    <p>m² жилой площади</p>
+                                    <span>17.79</span>
+                                    <p>m² жилої площі</p>
                                 </li>
                                 <li>
-                                    <span>73.30</span>
-                                    <p>m² общей площади</p>
+                                    <span>49.81</span>
+                                    <p>m² загальної площі</p>
                                 </li>
                             </ul>
                             <ul class="single-app-secondry-specs-list animation-element-default">
-                                <li>Ванная комната — 15.2 м²</li>
-                                <li>Гостинная — 15.2 м²</li>
-                                <li>Спальня — 15.2 м²</li>
-                                <li>Коридор — 15.2 м²</li>
+                                <li>Передпокій — 6.01 м²</li>
+                                <li>Кухня-вітальня — 18.26 м²</li>
+                                <li>Кімната — 17.79 м²</li>
+                                <li>Ванна кімната — 4.68 м²</li>
+                                <li>Гардироб — 3.07 м²</li>
                             </ul>
                             <div class="single-app-description-footer animation-element-default">
                                 <a href="#" class="button button-skew button-red cta-modal-btn">
-                                    <span>Организовать просмотр</span>
+                                    <span>Організувати перегляд</span>
                                 </a>
                                 <div class="single-app-description-footer-secondary-btns">
-                                    <a href="#" class="download">Скачать PDF</a>
-                                    <a href="#" class="print">Распечатать</a>
+                                    <a href="schemes/section1/floor2/apartments-schemes/1A-1/1A-1.pdf" download class="download">Скачати PDF</a>
+                                    <a href="schemes/section1/floor2/apartments-schemes/1A-1/1A-1.pdf" target="_blank" class="print">Надрукувати</a>
                                 </div>
                             </div>
                         </div>
@@ -43,37 +44,37 @@
                     <div class="single-app-article-flex-right">
                         <ul class="single-app-article-flex-right-tabs animation-element-default">
                             <li class="active">
-                                <a href="#">План квартиры</a>
+                                <a href="#">План квартири</a>
                             </li>
                             <li>
-                                <a href="#" class="gallery-button" data-images="defaultImages">Вид из окна</a>
+                                <a href="#" class="gallery-button" data-images="defaultImages">Вид з вікна</a>
                             </li>
                         </ul>
                         <div class="single-app-article-flex-right-visuals">
                             <div class="single-app-article-flex-right-visuals-flex">
                                 <div class="single-app-article-flex-right-visuals-flex-left animation-element-default">
-                                    <img src="statics/img/single_app/app.png" alt="app">
+                                    <img src="schemes/section1/floor2/apartments-schemes/1A-1/1A-1.svg" alt="app">
                                 </div>
                                 <div class="single-app-article-flex-right-visuals-flex-right">
                                     <div class="plan-spot animation-element-default">
                                         <div class="plan-spot-img">
                                             <img src="statics/img/single_app/plan-spot.png" alt="">
                                         </div>
-                                        <span>Расположение <br>на генплане</span>
+                                        <span>Розташування <br>на генплані</span>
                                     </div>
                                     <div class="plan-spot animation-element-default">
                                         <div class="plan-spot-img">
-                                            <img src="statics/img/single_app/floor-spot.png" alt="">
+                                            <img src="schemes/section1/floor2/apartments-schemes/1A-1/1A-1_on_floor.svg" alt="">
                                         </div>
-                                        <span>Расположение <br>на этаже</span>
+                                        <span>Розташування <br>на поверху</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="wind-rose single-app-wind-rose animation-element-default">
-                                <span>с</span>
-                                <span>в</span>
-                                <span>ю</span>
-                                <span>з</span>
+                                <span>пн</span>
+                                <span>сх</span>
+                                <span>пд</span>
+                                <span>зх</span>
                             </div>
                         </div>
                     </div>
@@ -81,8 +82,8 @@
             </article>
             <section class="front-page-news">
                 <div class="front-page-news-header">
-                    <h2 class="animation-element-default">Похожие квартиры</h2>
-                    <a href="page-filter.php" class="link link-simple link-red news-link animation-element-default">Все квартиры</a>
+                    <h2 class="animation-element-default">Схожі квартири</h2>
+                    <a href="page-filter.php" class="link link-simple link-red news-link animation-element-default">Всі квартири</a>
                 </div>
                 <div class="front-page-news-slider" id="flats_slider">
                     <ul class="front-page-news-slider-list alike-flats-list">

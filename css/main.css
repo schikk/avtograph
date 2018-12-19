@@ -3901,6 +3901,15 @@ span.del-line::after {
     object-fit: contain;
 }
 
+.filter-page-container-right-result-list-img > svg {
+    width: 100%;
+    height: 100%;
+}
+
+.filter-page-container-right-result-list-img > svg .marker {
+    display: none;
+}
+
 .filter-page-container-right-result-list-item-meta {
     display: flex;
     flex-wrap: wrap;
@@ -4142,6 +4151,7 @@ span.del-line::after {
 .single-app-article-flex-right-visuals-flex-left {
     width: 3.35rem;
     max-width: 100%;
+    padding-top: .5rem;
 }
 
 .single-app-article-flex-right-visuals-flex-left > img {
