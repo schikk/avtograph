@@ -11,32 +11,43 @@
                             <h2 class="animation-element-default">Технічні характеристики</h2>
                             <ul class="single-app-main-specs-list animation-element-default">
                                 <li>
-                                    <span>1</span>
-                                    <p>Комната</p>
+                                    <span>4</span>
+                                    <p>Кімнати</p>
                                 </li>
                                 <li>
-                                    <span>17.79</span>
+                                    <span>101.69</span>
                                     <p>m² жилої площі</p>
                                 </li>
                                 <li>
-                                    <span>49.81</span>
+                                    <span>170.83</span>
                                     <p>m² загальної площі</p>
                                 </li>
                             </ul>
                             <ul class="single-app-secondry-specs-list animation-element-default">
-                                <li><span class="app-item">1</span>Передпокій — 6.01 м²</li>
-                                <li><span class="app-item">2</span>Кухня-вітальня — 18.26 м²</li>
-                                <li><span class="app-item">3</span>Кімната — 17.79 м²</li>
-                                <li><span class="app-item">4</span>Ванна кімната — 4.68 м²</li>
-                                <li><span class="app-item">5</span>Гардироб — 3.07 м²</li>
+                                <li><span class="app-item">1</span>Передпокій — 12.20 м²</li>
+                                <li><span class="app-item">2</span>Кухня-їдальня — 19.64 м²</li>
+                                <li><span class="app-item">3</span>Столова — 21.34 м²</li>
+                                <li><span class="app-item">4</span>Кімната 1 — 15.92 м²</li>
+                                <li><span class="app-item">5</span>Вітальня — 15.61 м²</li>
+                                <li><span class="app-item">6</span>Ванна — 4.68 м²</li>
+                                <li><span class="app-item">7</span>Пральня — 1.67 м²</li>
+                                <li><span class="app-item">8</span>Лоджія — 3.16 м²</li>
+                                <li><span class="app-item">9</span>Хол — 13.42 м²</li>
+                                <li><span class="app-item">10</span>Кімната 2 — 17.07 м²</li>
+                                <li><span class="app-item">11</span>Кімната 3 — 15.83 м²</li>
+                                <li><span class="app-item">12</span>Кімната 4 — 15.92 м²</li>
+                                <li><span class="app-item">13</span>Ванна — 4.72 м²</li>
+                                <li><span class="app-item">14</span>Ванна — 4.68 м²</li>
+                                <li><span class="app-item">15</span>Друге світло</li>
+                                <li><span class="app-item">17</span>Гардероб — 1.81 м²</li>
                             </ul>
                             <div class="single-app-description-footer animation-element-default">
                                 <a href="#" class="button button-skew button-red cta-modal-btn">
                                     <span>Організувати перегляд</span>
                                 </a>
                                 <div class="single-app-description-footer-secondary-btns">
-                                    <a href="schemes/section1/floor2/apartments-schemes/1A-1/1A-1.pdf" download class="download">Скачати PDF</a>
-                                    <a href="schemes/section1/floor2/apartments-schemes/1A-1/1A-1.pdf" target="_blank" class="print">Надрукувати</a>
+                                    <a href="schemes/section1/floor25-26/apartments-schemes/DV-1/dv-1.pdf" download class="download">Скачати PDF</a>
+                                    <a href="schemes/section1/floor25-26/apartments-schemes/DV-1/dv-1.pdf" target="_blank" class="print">Надрукувати</a>
                                 </div>
                             </div>
                         </div>
@@ -53,18 +64,19 @@
                         <div class="single-app-article-flex-right-visuals">
                             <div class="single-app-article-flex-right-visuals-flex">
                                 <div class="single-app-article-flex-right-visuals-flex-left animation-element-default">
-                                    <img src="schemes/section1/floor2/apartments-schemes/1A-1/1A-1.svg" alt="app">
+                                    <img src="schemes/section1/floor25-26/apartments-schemes/DV-1/dv-1-1.svg" alt="app">
+                                    <img src="schemes/section1/floor25-26/apartments-schemes/DV-1/dv-1-2.svg" alt="app">
                                 </div>
                                 <div class="single-app-article-flex-right-visuals-flex-right">
                                     <div class="plan-spot animation-element-default">
                                         <div class="plan-spot-img">
-                                            <img src="schemes/section1/floor2/apartments-schemes/1A-1/1A-1_on_genplan.jpg" alt="">
+                                            <img src="schemes/section1/floor25-26/apartments-schemes/DV-1/dv-1_on_genplan.jpg" alt="">
                                         </div>
                                         <span>Розташування <br>на генплані</span>
                                     </div>
                                     <div class="plan-spot animation-element-default">
                                         <div class="plan-spot-img">
-                                            <img src="schemes/section1/floor2/apartments-schemes/1A-1/1A-1_on_floor.svg" alt="">
+                                            <img src="schemes/section1/floor25-26/apartments-schemes/DV-1/dv-1-1_on_floor.svg" alt="">
                                         </div>
                                         <span>Розташування <br>на поверху</span>
                                     </div>
