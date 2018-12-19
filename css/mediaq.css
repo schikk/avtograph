@@ -7,14 +7,17 @@
     .header-menu,
     .header-btns,
     .front-page-intro-address,
-    .front-page-intro-animation-block {
+    .front-page-intro-animation-block,
+    .single-app-description-footer-secondary-btns a.print {
         display: none;
     }
 
     .page-wrapper {
         padding: 1rem 0 0 0;
     }
-
+    .single-app-article-flex-right-visuals-flex-left {
+        width: 100%;
+    }
     .text-mobile-center {
         text-align: center;
     }

@@ -112,6 +112,9 @@
         if ( strpos( $currentpage, 'single-app.php' ) == true ) { ?>
             <script src="js/templates/single-app.js?ver=1.05"></script>
         <?php }
+        if ( strpos( $currentpage, 'single-app-double.php' ) == true ) { ?>
+            <script src="js/templates/single-app.js?ver=1.05"></script>
+        <?php }
         if ( strpos( $currentpage, 'page-floor-slice.php' ) == true ) { ?>
             <script src="js/templates/page-floor-slice.js?ver=1.05"></script>
         <?php }
