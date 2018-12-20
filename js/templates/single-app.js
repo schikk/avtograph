@@ -83,5 +83,6 @@ $(function() {
     if ($(window).width() < 768) {
         $('.single-app-article-flex-right-tabs').insertAfter('.single-app-page-container-top');
         $('.single-app-article-flex-right-visuals').insertAfter('.single-app-secondry-specs-list');
+        $('.single-app-secondry-specs-list').insertAfter('.single-app-article-flex-right-visuals-flex-left');
     }
 });
