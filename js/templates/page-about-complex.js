@@ -357,7 +357,7 @@ $(document).ready(function() {
 
     // Mobile adaptation
     if ($(window).width() < 768) {
-        $('.front-page-park-slider-container').insertAfter('.front-page-park-content > h2');
-        $('.front-page-close-needs-slider-container').insertAfter('.front-page-close-needs-content > h2');
+        // $('.front-page-park-slider-container').insertAfter('.front-page-park-content > h2');
+        // $('.front-page-close-needs-slider-container').insertAfter('.front-page-close-needs-content > h2');
     }
 });

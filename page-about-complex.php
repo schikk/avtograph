@@ -90,6 +90,46 @@
                     </div>
                 </div>
             </section>
+            <section class="main-table-info">
+                <ul class="main-table-info-list">
+                    <li>
+                        <span class="main-table-info-name">Фасад</span>
+                        <span class="main-table-info-value">Вентильований навісний, з використанням керамограніту</span>
+                    </li>
+                    <li>
+                        <span class="main-table-info-name">Віконні конструкціï</span>
+                        <span class="main-table-info-value">Металопластикові в 2-камерним енергозберігаючим склопакетом</span>
+                    </li>
+                    <li>
+                        <span class="main-table-info-name">Утеплювач фасаду</span>
+                        <span class="main-table-info-value">Мінеральна вата Rockwool товщиною від 150 мм</span>
+                    </li>
+                    <li>
+                        <span class="main-table-info-name">Балконні блоки</span>
+                        <span class="main-table-info-value">5-камерний металопластиковий профіль Windom DeLuxe та 1-камерний енергозберігаючий склопакет</span>
+                    </li>                                        
+                    <li>
+                        <span class="main-table-info-name">Технологія будівництва</span>
+                        <span class="main-table-info-value">Монолітна-каркасна</span>
+                    </li>
+                    <li>
+                        <span class="main-table-info-name">Опалення</span>
+                        <span class="main-table-info-value">Власна кательня на даху</span>
+                    </li>                                                             
+                    <li>
+                        <span class="main-table-info-name">Зовнішні стіни</span>
+                        <span class="main-table-info-value">Керамічна цегла</span>
+                    </li>
+                    <li>
+                        <span class="main-table-info-name">Ліфти</span>
+                        <span class="main-table-info-value">MIZUI – швидкісні, безшумні, з технологією плавного ходу</span>
+                    </li>                                                                                                                        
+                    <li>
+                        <span class="main-table-info-name">Введення в експлуатацію</span>
+                        <span class="main-table-info-value">ІІ черга – ІV квартал 2021 р.</span>
+                    </li>                
+                </ul>
+            </section>
             <section class="front-page-park about-complex-page-park clearfix">
                 <div class="front-page-park-content">
                     <h2 class="animation-element-default">Краса 4 сезонів в міському оазисі</h2>

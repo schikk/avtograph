@@ -270,7 +270,7 @@
     }
 
     .front-page-close-needs-content > h2 {
-        font-size: .4rem;
+        font-size: .4rem !important;
         line-height: .45rem;
         margin: 0 0 .2rem 0;
     }
@@ -646,6 +646,20 @@
         padding: .3rem 0;
     }
 
+    .main-table-info {
+        padding: 0 .3rem;
+    }
+
+    .main-table-info-list > li {
+        width: 100%;
+        margin-bottom: .4rem;
+    }
+
+    .front-page-park-slider,
+    .front-page-close-needs-slider {
+        margin-top: .3rem;
+    }
+    
     .main-infrastructure {
         flex-direction: column-reverse;
     }

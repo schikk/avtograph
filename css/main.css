@@ -2276,6 +2276,42 @@ span.del-line::after {
     color: #E22737;
 }
 
+/* PAGE - ABOUT COMPLEX - Table */
+.main-table-info {
+    padding: 0 .8rem 0 2rem;
+}
+.main-table-info-list {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main-table-info-list > li {
+    width: 5rem;
+    margin-bottom: .6rem;
+}
+.main-table-info-list > li span {
+    display: block;
+}
+.main-table-info-name {
+    font-weight: 500;
+    font-size: .35rem;
+    color: #12284C;
+    letter-spacing: 0;
+    line-height: .4rem;
+    margin-bottom: .1rem;
+}
+.main-table-info-value {
+    max-width: 4.5rem;
+    font-size: .25rem;
+    color: #12284C;
+    letter-spacing: 0;
+    line-height: .35rem;
+    font-weight: 300;
+}
 /* PAGE - ABOUT COMPLEX - Parameters */
 
 .about-complex-page-params {
