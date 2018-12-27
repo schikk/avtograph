@@ -3459,9 +3459,7 @@ span.del-line::after {
 }
 
 .wind-rose {
-    width: .5rem;
-    height: .5rem;
-    background-image: url('../statics/img/ui/rose_of_winf.svg');
+    width: .8rem;
     -webkit-background-size: contain;
     background-size: contain;
     background-position: center;
@@ -3470,7 +3468,10 @@ span.del-line::after {
     bottom: .74rem;
     right: .68rem;
 }
-
+.wind-rose > img {
+    display: block;
+    width: 100%;
+}
 .wind-rose > span {
     display: block;
     font-weight: 500;

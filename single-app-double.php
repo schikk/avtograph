@@ -83,10 +83,7 @@
                                 </div>
                             </div>
                             <div class="wind-rose single-app-wind-rose animation-element-default">
-                                <span>пн</span>
-                                <span>сх</span>
-                                <span>пд</span>
-                                <span>зх</span>
+                                <img src="schemes/section1/floor2/apartments-schemes/1A-1/1A-1_rose.svg" alt="">
                             </div>
                         </div>
                     </div>
