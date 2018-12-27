@@ -3393,17 +3393,26 @@ span.del-line::after {
     max-width: 100%;
     background-color: #fff;
     box-shadow: 0 .05rem .25rem 0 rgba(40,48,61,0.07);
-    padding: .67rem 1.39rem .45rem 1.39rem;
+    padding: .67rem .5rem .45rem .5rem;
 }
 
 .floor-slice-page-right-pane-img {
     margin: 0 0 .4rem 0;
 }
 
-.floor-slice-page-right-pane-img > img {
+.floor-slice-page-right-pane-img > img,
+.floor-slice-page-right-pane-img > svg {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.floor-slice-page-right-pane-img > svg a > g {
+    transition: opacity .5s;
+}
+
+.floor-slice-page-right-pane-img > svg a:hover > g {
+    opacity: .7;
 }
 
 .floor-legend {
@@ -3481,6 +3490,11 @@ span.del-line::after {
     height: .5rem;
     width: .5rem;
     position: absolute;
+}
+
+.floor-slice-page-right-pane .wind-rose {
+    width: .7rem;
+    bottom: .2rem;
 }
 
 .wind-rose > span:nth-of-type(1) {
