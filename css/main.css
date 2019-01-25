@@ -890,6 +890,7 @@ span.del-line {
     display: inline-block;
     vertical-align: top;
     position: relative;
+    opacity: .3;
 }
 
 span.del-line::after {
