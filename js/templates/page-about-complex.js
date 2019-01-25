@@ -293,7 +293,8 @@ $(document).ready(function() {
             position: mainLatLng,
             map: map,
             title: '',
-            icon: mainimage
+            icon: mainimage,
+            origin: new google.maps.Point(-30, -30)
         });
         var infrastructureData = {
             restaurant: {
