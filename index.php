@@ -20,6 +20,12 @@
                 <div class="vr-btn" role="button">
                     <img src="statics/img/ui/vr.svg" alt="VR icon">
                 </div>
+                <div id="arrow-wrapper" class="arrow-down-anchor">
+                    <div class="arrow-border">
+                        <div class="arrow down"></div>
+                        <div class='pulse'></div>
+                    </div>
+                </div>
             </section>
             <section class="front-page-description clearfix">
                 <div class="front-page-description-image gallery-button custom-cursor-block img-animation-element" data-images="defaultImages">

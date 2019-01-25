@@ -478,4 +478,9 @@ $(document).ready(function() {
         $(this).removeClass('hovered');
     });
 
+    // Go down intro button
+    $('.arrow-down-anchor').on('click', function(event) {
+        $('body,html').animate({scrollTop: window.innerHeight}, 800);
+    });
+
 });

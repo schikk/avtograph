@@ -1320,4 +1320,9 @@
     .preloader-content {
         width: 90%;
     }
+
+    .arrow-down-anchor {
+        bottom: .05rem;
+        transform: scale(.7);
+    }
 }
