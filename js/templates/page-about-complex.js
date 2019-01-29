@@ -287,14 +287,17 @@ $(document).ready(function() {
         };
         var mapElement = document.getElementById('infrastructure_map');
         var map = new google.maps.Map(mapElement, mapOptions);
-        var mainimage = $(window).width() > 767 ? '/statics/img/ui/map/red_pin_big.svg' : '/statics/img/ui/map/red_pin_small.svg';
+        var mainimage = {
+            url: '/statics/img/ui/map/red_pin_big.svg',
+            scaledSize: $(window).width() > 767 ? new google.maps.Size(100, 111) : new google.maps.Size(49, 54),
+            anchor: $(window).width() > 767 ? new google.maps.Point(15,111) : new google.maps.Point(8,54)
+        };
         var mainLatLng = new google.maps.LatLng(50.468577, 30.612557);
         var mapMarker = new google.maps.Marker({
             position: mainLatLng,
             map: map,
             title: '',
-            icon: mainimage,
-            origin: new google.maps.Point(-30, -30)
+            icon: mainimage
         });
         var infrastructureData = {
             restaurant: {
